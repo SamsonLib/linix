@@ -1,0 +1,6 @@
+.clj-kondo
+.cpcache
+.direnv
+.lsp
+store
+target
