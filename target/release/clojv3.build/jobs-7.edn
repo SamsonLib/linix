@@ -1,3 +1,0 @@
-#("./target/release/clojv3.build/app-5.ss" "./target/release/clojv3.build/app-5.ss.so" "./target/release/clojv3.build/app-5.ss.so.vfasl" "release" default)
-#("./target/release/clojv3.build/app-post.ss" "./target/release/clojv3.build/app-post.ss.so" "./target/release/clojv3.build/app-post.ss.so.vfasl" "release" default)
-#("./target/release/clojv3.build/flat.ss" "./target/release/clojv3.build/flat.so" "./target/release/clojv3.build/flat.so.vfasl" "release" default)
