@@ -1,0 +1,19 @@
+libgnu_a-timespec.o: timespec.c \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h \
+ ../config.h timespec.h time.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/time.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h \
+ stddef.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h \
+ arg-nonnull.h
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h:
+../config.h:
+timespec.h:
+time.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/time.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h:
+stddef.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h:
+arg-nonnull.h:

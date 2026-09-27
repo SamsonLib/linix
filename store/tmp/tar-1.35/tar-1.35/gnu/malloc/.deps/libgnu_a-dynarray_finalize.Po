@@ -1,0 +1,35 @@
+malloc/libgnu_a-dynarray_finalize.o: malloc/dynarray_finalize.c \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h \
+ libc-config.h ../config.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/errno.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/errno.h \
+ cdefs.h dynarray.h malloc/dynarray.h stddef.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h \
+ string.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/string.h \
+ strings.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/strings.h \
+ stdlib.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdlib.h \
+ alloca.h
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h:
+libc-config.h:
+../config.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/errno.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/errno.h:
+cdefs.h:
+dynarray.h:
+malloc/dynarray.h:
+stddef.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h:
+string.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/string.h:
+strings.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/strings.h:
+stdlib.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdlib.h:
+alloca.h:

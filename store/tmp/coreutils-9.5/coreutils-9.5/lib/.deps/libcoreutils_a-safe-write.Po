@@ -1,0 +1,60 @@
+lib/libcoreutils_a-safe-write.o: lib/safe-write.c \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h \
+ lib/safe-read.c lib/config.h lib/safe-write.h lib/stddef.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h \
+ lib/sys/types.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/types.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h \
+ lib/sys/select.h lib/sys/time.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/time.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/select.h \
+ lib/signal.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/signal.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/signal.h \
+ lib/unistd.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/unistd.h \
+ lib/stdlib.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdlib.h \
+ lib/alloca.h lib/getopt-cdefs.h \
+ /nix/store/yzx98qlav3kgw6a9pkjpz13p1v280vyk-x86_64-unknown-linux-musl-gcc-15.3.0/x86_64-unknown-linux-musl/sys-include/sys/cdefs.h \
+ lib/getopt-pfx-core.h lib/getopt-core.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/errno.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/errno.h \
+ lib/sys-limits.h lib/limits.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/limits.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/limits.h
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h:
+lib/safe-read.c:
+lib/config.h:
+lib/safe-write.h:
+lib/stddef.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h:
+lib/sys/types.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/types.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:
+lib/sys/select.h:
+lib/sys/time.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/time.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/select.h:
+lib/signal.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/signal.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/signal.h:
+lib/unistd.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/unistd.h:
+lib/stdlib.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdlib.h:
+lib/alloca.h:
+lib/getopt-cdefs.h:
+/nix/store/yzx98qlav3kgw6a9pkjpz13p1v280vyk-x86_64-unknown-linux-musl-gcc-15.3.0/x86_64-unknown-linux-musl/sys-include/sys/cdefs.h:
+lib/getopt-pfx-core.h:
+lib/getopt-core.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/errno.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/errno.h:
+lib/sys-limits.h:
+lib/limits.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/limits.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/limits.h:

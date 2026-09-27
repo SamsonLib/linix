@@ -1,0 +1,37 @@
+libgnu_a-close-stream.o: close-stream.c \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h \
+ ../config.h close-stream.h stdio.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdio.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdarg.h \
+ stddef.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h \
+ sys/types.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/types.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/select.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/errno.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/errno.h \
+ fpending.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdio_ext.h \
+ unlocked-io.h
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h:
+../config.h:
+close-stream.h:
+stdio.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdio.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdarg.h:
+stddef.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h:
+sys/types.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/types.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/select.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/errno.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/errno.h:
+fpending.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdio_ext.h:
+unlocked-io.h:

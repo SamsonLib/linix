@@ -1,0 +1,19 @@
+lib/libcoreutils_a-strnlen1.o: lib/strnlen1.c \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h \
+ lib/config.h lib/strnlen1.h lib/stddef.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h \
+ lib/string.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/string.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/strings.h
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h:
+lib/config.h:
+lib/strnlen1.h:
+lib/stddef.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h:
+lib/string.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/string.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/strings.h:

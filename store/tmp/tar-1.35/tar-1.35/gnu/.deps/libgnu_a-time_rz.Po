@@ -1,0 +1,49 @@
+libgnu_a-time_rz.o: time_rz.c \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h \
+ ../config.h time.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/time.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h \
+ stddef.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/errno.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/errno.h \
+ stdlib.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdlib.h \
+ alloca.h string.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/string.h \
+ strings.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/strings.h \
+ flexmember.h idx.h stdint.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdint.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/stdint.h \
+ limits.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/limits.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/limits.h \
+ time-internal.h
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h:
+../config.h:
+time.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/time.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h:
+stddef.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/errno.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/errno.h:
+stdlib.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdlib.h:
+alloca.h:
+string.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/string.h:
+strings.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/strings.h:
+flexmember.h:
+idx.h:
+stdint.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdint.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/stdint.h:
+limits.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/limits.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/limits.h:
+time-internal.h:

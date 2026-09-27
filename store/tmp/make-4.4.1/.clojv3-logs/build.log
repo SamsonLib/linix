@@ -1,0 +1,134 @@
+Making all in lib
+make[1]: Entering directory '/home/samson/Projects/clojv3/store/tmp/make-4.4.1/make-4.4.1/lib'
+sed -e 1h -e '1s,.*,/* DO NOT EDIT! GENERATED AUTOMATICALLY! */,' -e 1G \
+  -e 's|@''HAVE_ALLOCA_H''@|1|g' \
+  ./alloca.in.h > alloca.h-t
+rm -f fnmatch.h-t fnmatch.h && \
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+  cat ./fnmatch.in.h; \
+} > fnmatch.h-t && \
+mv -f fnmatch.h-t fnmatch.h
+rm -f glob.h-t glob.h && \
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+  cat ./glob.in.h; \
+} > glob.h-t && \
+mv -f glob.h-t glob.h
+mv alloca.h-t alloca.h
+make  all-recursive
+make[2]: Entering directory '/home/samson/Projects/clojv3/store/tmp/make-4.4.1/make-4.4.1/lib'
+make[3]: Entering directory '/home/samson/Projects/clojv3/store/tmp/make-4.4.1/make-4.4.1/lib'
+x86_64-unknown-linux-musl-gcc -DHAVE_CONFIG_H -I. -I../src   -D__GNU_LIBRARY__=1 -Dgetenv=getenv -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include  -Wno-cast-qual -Wno-conversion -Wno-float-equal -Wno-sign-compare -Wno-undef -Wno-unused-function -Wno-unused-parameter -Wno-float-conversion -Wimplicit-fallthrough -Wno-pedantic -Wno-sign-conversion -Wno-type-limits -Wno-unsuffixed-float-constants -g -O2 -MT libgnu_a-concat-filename.o -MD -MP -MF .deps/libgnu_a-concat-filename.Tpo -c -o libgnu_a-concat-filename.o `test -f 'concat-filename.c' || echo './'`concat-filename.c
+x86_64-unknown-linux-musl-gcc -DHAVE_CONFIG_H -I. -I../src   -D__GNU_LIBRARY__=1 -Dgetenv=getenv -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include  -Wno-cast-qual -Wno-conversion -Wno-float-equal -Wno-sign-compare -Wno-undef -Wno-unused-function -Wno-unused-parameter -Wno-float-conversion -Wimplicit-fallthrough -Wno-pedantic -Wno-sign-conversion -Wno-type-limits -Wno-unsuffixed-float-constants -g -O2 -MT libgnu_a-findprog-in.o -MD -MP -MF .deps/libgnu_a-findprog-in.Tpo -c -o libgnu_a-findprog-in.o `test -f 'findprog-in.c' || echo './'`findprog-in.c
+x86_64-unknown-linux-musl-gcc -DHAVE_CONFIG_H -I. -I../src   -D__GNU_LIBRARY__=1 -Dgetenv=getenv -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include  -Wno-cast-qual -Wno-conversion -Wno-float-equal -Wno-sign-compare -Wno-undef -Wno-unused-function -Wno-unused-parameter -Wno-float-conversion -Wimplicit-fallthrough -Wno-pedantic -Wno-sign-conversion -Wno-type-limits -Wno-unsuffixed-float-constants -g -O2 -MT libgnu_a-fnmatch.o -MD -MP -MF .deps/libgnu_a-fnmatch.Tpo -c -o libgnu_a-fnmatch.o `test -f 'fnmatch.c' || echo './'`fnmatch.c
+x86_64-unknown-linux-musl-gcc -DHAVE_CONFIG_H -I. -I../src   -D__GNU_LIBRARY__=1 -Dgetenv=getenv -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include  -Wno-cast-qual -Wno-conversion -Wno-float-equal -Wno-sign-compare -Wno-undef -Wno-unused-function -Wno-unused-parameter -Wno-float-conversion -Wimplicit-fallthrough -Wno-pedantic -Wno-sign-conversion -Wno-type-limits -Wno-unsuffixed-float-constants -g -O2 -MT libgnu_a-glob.o -MD -MP -MF .deps/libgnu_a-glob.Tpo -c -o libgnu_a-glob.o `test -f 'glob.c' || echo './'`glob.c
+mv -f .deps/libgnu_a-fnmatch.Tpo .deps/libgnu_a-fnmatch.Po
+mv -f .deps/libgnu_a-concat-filename.Tpo .deps/libgnu_a-concat-filename.Po
+mv -f .deps/libgnu_a-findprog-in.Tpo .deps/libgnu_a-findprog-in.Po
+mv -f .deps/libgnu_a-glob.Tpo .deps/libgnu_a-glob.Po
+rm -f libgnu.a
+ar cr libgnu.a libgnu_a-concat-filename.o libgnu_a-findprog-in.o  libgnu_a-fnmatch.o libgnu_a-glob.o  
+ranlib libgnu.a
+make[3]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/make-4.4.1/make-4.4.1/lib'
+make[2]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/make-4.4.1/make-4.4.1/lib'
+make[1]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/make-4.4.1/make-4.4.1/lib'
+Making all in po
+make[1]: Entering directory '/home/samson/Projects/clojv3/store/tmp/make-4.4.1/make-4.4.1/po'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/make-4.4.1/make-4.4.1/po'
+Making all in doc
+make[1]: Entering directory '/home/samson/Projects/clojv3/store/tmp/make-4.4.1/make-4.4.1/doc'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/make-4.4.1/make-4.4.1/doc'
+make[1]: Entering directory '/home/samson/Projects/clojv3/store/tmp/make-4.4.1/make-4.4.1'
+depbase=`echo src/ar.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-unknown-linux-musl-gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/lib\" -DLOCALEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/share/locale\" -DINCLUDEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/include\"  -D__GNU_LIBRARY__=1 -Dgetenv=getenv -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include  -g -O2 -MT src/ar.o -MD -MP -MF $depbase.Tpo -c -o src/ar.o src/ar.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/arscan.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-unknown-linux-musl-gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/lib\" -DLOCALEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/share/locale\" -DINCLUDEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/include\"  -D__GNU_LIBRARY__=1 -Dgetenv=getenv -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include  -g -O2 -MT src/arscan.o -MD -MP -MF $depbase.Tpo -c -o src/arscan.o src/arscan.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/commands.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-unknown-linux-musl-gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/lib\" -DLOCALEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/share/locale\" -DINCLUDEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/include\"  -D__GNU_LIBRARY__=1 -Dgetenv=getenv -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include  -g -O2 -MT src/commands.o -MD -MP -MF $depbase.Tpo -c -o src/commands.o src/commands.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/default.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-unknown-linux-musl-gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/lib\" -DLOCALEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/share/locale\" -DINCLUDEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/include\"  -D__GNU_LIBRARY__=1 -Dgetenv=getenv -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include  -g -O2 -MT src/default.o -MD -MP -MF $depbase.Tpo -c -o src/default.o src/default.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/dir.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-unknown-linux-musl-gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/lib\" -DLOCALEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/share/locale\" -DINCLUDEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/include\"  -D__GNU_LIBRARY__=1 -Dgetenv=getenv -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include  -g -O2 -MT src/dir.o -MD -MP -MF $depbase.Tpo -c -o src/dir.o src/dir.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/expand.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-unknown-linux-musl-gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/lib\" -DLOCALEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/share/locale\" -DINCLUDEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/include\"  -D__GNU_LIBRARY__=1 -Dgetenv=getenv -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include  -g -O2 -MT src/expand.o -MD -MP -MF $depbase.Tpo -c -o src/expand.o src/expand.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/file.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-unknown-linux-musl-gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/lib\" -DLOCALEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/share/locale\" -DINCLUDEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/include\"  -D__GNU_LIBRARY__=1 -Dgetenv=getenv -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include  -g -O2 -MT src/file.o -MD -MP -MF $depbase.Tpo -c -o src/file.o src/file.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/function.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-unknown-linux-musl-gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/lib\" -DLOCALEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/share/locale\" -DINCLUDEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/include\"  -D__GNU_LIBRARY__=1 -Dgetenv=getenv -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include  -g -O2 -MT src/function.o -MD -MP -MF $depbase.Tpo -c -o src/function.o src/function.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/getopt.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-unknown-linux-musl-gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/lib\" -DLOCALEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/share/locale\" -DINCLUDEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/include\"  -D__GNU_LIBRARY__=1 -Dgetenv=getenv -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include  -g -O2 -MT src/getopt.o -MD -MP -MF $depbase.Tpo -c -o src/getopt.o src/getopt.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/getopt1.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-unknown-linux-musl-gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/lib\" -DLOCALEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/share/locale\" -DINCLUDEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/include\"  -D__GNU_LIBRARY__=1 -Dgetenv=getenv -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include  -g -O2 -MT src/getopt1.o -MD -MP -MF $depbase.Tpo -c -o src/getopt1.o src/getopt1.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/guile.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-unknown-linux-musl-gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/lib\" -DLOCALEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/share/locale\" -DINCLUDEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/include\"  -D__GNU_LIBRARY__=1 -Dgetenv=getenv -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include  -g -O2 -MT src/guile.o -MD -MP -MF $depbase.Tpo -c -o src/guile.o src/guile.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/hash.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-unknown-linux-musl-gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/lib\" -DLOCALEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/share/locale\" -DINCLUDEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/include\"  -D__GNU_LIBRARY__=1 -Dgetenv=getenv -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include  -g -O2 -MT src/hash.o -MD -MP -MF $depbase.Tpo -c -o src/hash.o src/hash.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/implicit.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-unknown-linux-musl-gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/lib\" -DLOCALEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/share/locale\" -DINCLUDEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/include\"  -D__GNU_LIBRARY__=1 -Dgetenv=getenv -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include  -g -O2 -MT src/implicit.o -MD -MP -MF $depbase.Tpo -c -o src/implicit.o src/implicit.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/job.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-unknown-linux-musl-gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/lib\" -DLOCALEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/share/locale\" -DINCLUDEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/include\"  -D__GNU_LIBRARY__=1 -Dgetenv=getenv -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include  -g -O2 -MT src/job.o -MD -MP -MF $depbase.Tpo -c -o src/job.o src/job.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/load.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-unknown-linux-musl-gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/lib\" -DLOCALEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/share/locale\" -DINCLUDEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/include\"  -D__GNU_LIBRARY__=1 -Dgetenv=getenv -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include  -g -O2 -MT src/load.o -MD -MP -MF $depbase.Tpo -c -o src/load.o src/load.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/loadapi.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-unknown-linux-musl-gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/lib\" -DLOCALEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/share/locale\" -DINCLUDEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/include\"  -D__GNU_LIBRARY__=1 -Dgetenv=getenv -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include  -g -O2 -MT src/loadapi.o -MD -MP -MF $depbase.Tpo -c -o src/loadapi.o src/loadapi.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/main.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-unknown-linux-musl-gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/lib\" -DLOCALEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/share/locale\" -DINCLUDEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/include\"  -D__GNU_LIBRARY__=1 -Dgetenv=getenv -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include  -g -O2 -MT src/main.o -MD -MP -MF $depbase.Tpo -c -o src/main.o src/main.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/misc.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-unknown-linux-musl-gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/lib\" -DLOCALEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/share/locale\" -DINCLUDEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/include\"  -D__GNU_LIBRARY__=1 -Dgetenv=getenv -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include  -g -O2 -MT src/misc.o -MD -MP -MF $depbase.Tpo -c -o src/misc.o src/misc.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/output.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-unknown-linux-musl-gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/lib\" -DLOCALEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/share/locale\" -DINCLUDEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/include\"  -D__GNU_LIBRARY__=1 -Dgetenv=getenv -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include  -g -O2 -MT src/output.o -MD -MP -MF $depbase.Tpo -c -o src/output.o src/output.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/read.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-unknown-linux-musl-gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/lib\" -DLOCALEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/share/locale\" -DINCLUDEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/include\"  -D__GNU_LIBRARY__=1 -Dgetenv=getenv -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include  -g -O2 -MT src/read.o -MD -MP -MF $depbase.Tpo -c -o src/read.o src/read.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/remake.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-unknown-linux-musl-gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/lib\" -DLOCALEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/share/locale\" -DINCLUDEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/include\"  -D__GNU_LIBRARY__=1 -Dgetenv=getenv -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include  -g -O2 -MT src/remake.o -MD -MP -MF $depbase.Tpo -c -o src/remake.o src/remake.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/rule.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-unknown-linux-musl-gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/lib\" -DLOCALEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/share/locale\" -DINCLUDEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/include\"  -D__GNU_LIBRARY__=1 -Dgetenv=getenv -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include  -g -O2 -MT src/rule.o -MD -MP -MF $depbase.Tpo -c -o src/rule.o src/rule.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/shuffle.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-unknown-linux-musl-gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/lib\" -DLOCALEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/share/locale\" -DINCLUDEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/include\"  -D__GNU_LIBRARY__=1 -Dgetenv=getenv -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include  -g -O2 -MT src/shuffle.o -MD -MP -MF $depbase.Tpo -c -o src/shuffle.o src/shuffle.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/signame.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-unknown-linux-musl-gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/lib\" -DLOCALEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/share/locale\" -DINCLUDEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/include\"  -D__GNU_LIBRARY__=1 -Dgetenv=getenv -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include  -g -O2 -MT src/signame.o -MD -MP -MF $depbase.Tpo -c -o src/signame.o src/signame.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/strcache.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-unknown-linux-musl-gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/lib\" -DLOCALEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/share/locale\" -DINCLUDEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/include\"  -D__GNU_LIBRARY__=1 -Dgetenv=getenv -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include  -g -O2 -MT src/strcache.o -MD -MP -MF $depbase.Tpo -c -o src/strcache.o src/strcache.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/variable.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-unknown-linux-musl-gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/lib\" -DLOCALEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/share/locale\" -DINCLUDEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/include\"  -D__GNU_LIBRARY__=1 -Dgetenv=getenv -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include  -g -O2 -MT src/variable.o -MD -MP -MF $depbase.Tpo -c -o src/variable.o src/variable.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/version.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-unknown-linux-musl-gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/lib\" -DLOCALEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/share/locale\" -DINCLUDEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/include\"  -D__GNU_LIBRARY__=1 -Dgetenv=getenv -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include  -g -O2 -MT src/version.o -MD -MP -MF $depbase.Tpo -c -o src/version.o src/version.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/vpath.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-unknown-linux-musl-gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/lib\" -DLOCALEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/share/locale\" -DINCLUDEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/include\"  -D__GNU_LIBRARY__=1 -Dgetenv=getenv -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include  -g -O2 -MT src/vpath.o -MD -MP -MF $depbase.Tpo -c -o src/vpath.o src/vpath.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/posixos.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-unknown-linux-musl-gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/lib\" -DLOCALEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/share/locale\" -DINCLUDEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/include\"  -D__GNU_LIBRARY__=1 -Dgetenv=getenv -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include  -g -O2 -MT src/posixos.o -MD -MP -MF $depbase.Tpo -c -o src/posixos.o src/posixos.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/remote-stub.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+x86_64-unknown-linux-musl-gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/lib\" -DLOCALEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/share/locale\" -DINCLUDEDIR=\"/home/samson/Projects/clojv3/./store/make-4.4.1/include\"  -D__GNU_LIBRARY__=1 -Dgetenv=getenv -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include  -g -O2 -MT src/remote-stub.o -MD -MP -MF $depbase.Tpo -c -o src/remote-stub.o src/remote-stub.c &&\
+mv -f $depbase.Tpo $depbase.Po
+x86_64-unknown-linux-musl-gcc  -g -O2 -Wl,--export-dynamic -B/home/samson/Projects/clojv3/./store/musl-1.2.6/lib -L/home/samson/Projects/clojv3/./store/musl-1.2.6/lib -Wl,-rpath,/home/samson/Projects/clojv3/./store/musl-1.2.6/lib -Wl,-dynamic-linker,/home/samson/Projects/clojv3/./store/musl-1.2.6/lib/libc.so -o make src/ar.o src/arscan.o src/commands.o src/default.o src/dir.o src/expand.o src/file.o src/function.o src/getopt.o src/getopt1.o src/guile.o src/hash.o src/implicit.o src/job.o src/load.o src/loadapi.o src/main.o src/misc.o src/output.o src/read.o src/remake.o src/rule.o src/shuffle.o src/signame.o src/strcache.o src/variable.o src/version.o src/vpath.o  src/posixos.o  src/remote-stub.o   lib/libgnu.a   
+make[1]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/make-4.4.1/make-4.4.1'

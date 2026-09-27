@@ -1,0 +1,55 @@
+libgnu_a-argmatch.o: argmatch.c \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h \
+ ../config.h argmatch.h limits.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/limits.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/limits.h \
+ stddef.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h stdio.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdio.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdarg.h \
+ sys/types.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/types.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/select.h \
+ string.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/string.h \
+ strings.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/strings.h \
+ gettext.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/libintl.h \
+ quote.h stdlib.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdlib.h \
+ alloca.h error.h quotearg.h unlocked-io.h exitfail.h
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h:
+../config.h:
+argmatch.h:
+limits.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/limits.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/limits.h:
+stddef.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h:
+stdio.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdio.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdarg.h:
+sys/types.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/types.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/select.h:
+string.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/string.h:
+strings.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/strings.h:
+gettext.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/libintl.h:
+quote.h:
+stdlib.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdlib.h:
+alloca.h:
+error.h:
+quotearg.h:
+unlocked-io.h:
+exitfail.h:

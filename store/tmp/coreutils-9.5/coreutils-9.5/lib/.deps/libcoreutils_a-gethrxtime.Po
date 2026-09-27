@@ -1,0 +1,40 @@
+lib/libcoreutils_a-gethrxtime.o: lib/gethrxtime.c \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h \
+ lib/config.h lib/gethrxtime.h lib/xtime.h lib/sys/time.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/time.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h \
+ lib/sys/select.h lib/sys/types.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/types.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/select.h \
+ lib/signal.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/signal.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/signal.h \
+ lib/timespec.h lib/time.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/time.h \
+ lib/stddef.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h \
+ lib/arg-nonnull.h
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h:
+lib/config.h:
+lib/gethrxtime.h:
+lib/xtime.h:
+lib/sys/time.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/time.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h:
+lib/sys/select.h:
+lib/sys/types.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/types.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/select.h:
+lib/signal.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/signal.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/signal.h:
+lib/timespec.h:
+lib/time.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/time.h:
+lib/stddef.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h:
+lib/arg-nonnull.h:

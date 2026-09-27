@@ -1,0 +1,124 @@
+Making install in doc
+make[1]: Entering directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35/doc'
+make[2]: Entering directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35/doc'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/mkdir -p '/home/samson/Projects/clojv3/./store/tar-1.35/share/info'
+ /nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/install -c -m 644 ./tar.info ./tar.info-1 ./tar.info-2 ./tar.info-3 '/home/samson/Projects/clojv3/./store/tar-1.35/share/info'
+ install-info --info-dir='/home/samson/Projects/clojv3/./store/tar-1.35/share/info' '/home/samson/Projects/clojv3/./store/tar-1.35/share/info/tar.info'
+ /nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/mkdir -p '/home/samson/Projects/clojv3/./store/tar-1.35/share/man/man1'
+ /nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/install -c -m 644 tar.1 '/home/samson/Projects/clojv3/./store/tar-1.35/share/man/man1'
+ /nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/mkdir -p '/home/samson/Projects/clojv3/./store/tar-1.35/share/man/man8'
+ /nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/install -c -m 644 rmt.8 '/home/samson/Projects/clojv3/./store/tar-1.35/share/man/man8'
+make[2]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35/doc'
+make[1]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35/doc'
+Making install in gnu
+make[1]: Entering directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35/gnu'
+make  install-recursive
+make[2]: Entering directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35/gnu'
+make[3]: Entering directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35/gnu'
+make[4]: Entering directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35/gnu'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35/gnu'
+make[3]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35/gnu'
+make[2]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35/gnu'
+make[1]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35/gnu'
+Making install in lib
+make[1]: Entering directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35/lib'
+make  install-am
+make[2]: Entering directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35/lib'
+make[3]: Entering directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35/lib'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35/lib'
+make[2]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35/lib'
+make[1]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35/lib'
+Making install in rmt
+make[1]: Entering directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35/rmt'
+make[2]: Entering directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35/rmt'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/mkdir -p '/home/samson/Projects/clojv3/./store/tar-1.35/libexec'
+  /nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/install -c rmt '/home/samson/Projects/clojv3/./store/tar-1.35/libexec'
+make[2]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35/rmt'
+make[1]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35/rmt'
+Making install in src
+make[1]: Entering directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35/src'
+make[2]: Entering directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35/src'
+ /nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/mkdir -p '/home/samson/Projects/clojv3/./store/tar-1.35/bin'
+  /nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/install -c tar '/home/samson/Projects/clojv3/./store/tar-1.35/bin'
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35/src'
+make[1]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35/src'
+Making install in scripts
+make[1]: Entering directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35/scripts'
+make[2]: Entering directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35/scripts'
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35/scripts'
+make[1]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35/scripts'
+Making install in po
+make[1]: Entering directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35/po'
+installing bg.gmo as /home/samson/Projects/clojv3/./store/tar-1.35/share/locale/bg/LC_MESSAGES/tar.mo
+installing ca.gmo as /home/samson/Projects/clojv3/./store/tar-1.35/share/locale/ca/LC_MESSAGES/tar.mo
+installing cs.gmo as /home/samson/Projects/clojv3/./store/tar-1.35/share/locale/cs/LC_MESSAGES/tar.mo
+installing da.gmo as /home/samson/Projects/clojv3/./store/tar-1.35/share/locale/da/LC_MESSAGES/tar.mo
+installing de.gmo as /home/samson/Projects/clojv3/./store/tar-1.35/share/locale/de/LC_MESSAGES/tar.mo
+installing el.gmo as /home/samson/Projects/clojv3/./store/tar-1.35/share/locale/el/LC_MESSAGES/tar.mo
+installing eo.gmo as /home/samson/Projects/clojv3/./store/tar-1.35/share/locale/eo/LC_MESSAGES/tar.mo
+installing es.gmo as /home/samson/Projects/clojv3/./store/tar-1.35/share/locale/es/LC_MESSAGES/tar.mo
+installing et.gmo as /home/samson/Projects/clojv3/./store/tar-1.35/share/locale/et/LC_MESSAGES/tar.mo
+installing eu.gmo as /home/samson/Projects/clojv3/./store/tar-1.35/share/locale/eu/LC_MESSAGES/tar.mo
+installing fi.gmo as /home/samson/Projects/clojv3/./store/tar-1.35/share/locale/fi/LC_MESSAGES/tar.mo
+installing fr.gmo as /home/samson/Projects/clojv3/./store/tar-1.35/share/locale/fr/LC_MESSAGES/tar.mo
+installing ga.gmo as /home/samson/Projects/clojv3/./store/tar-1.35/share/locale/ga/LC_MESSAGES/tar.mo
+installing gl.gmo as /home/samson/Projects/clojv3/./store/tar-1.35/share/locale/gl/LC_MESSAGES/tar.mo
+installing hr.gmo as /home/samson/Projects/clojv3/./store/tar-1.35/share/locale/hr/LC_MESSAGES/tar.mo
+installing hu.gmo as /home/samson/Projects/clojv3/./store/tar-1.35/share/locale/hu/LC_MESSAGES/tar.mo
+installing id.gmo as /home/samson/Projects/clojv3/./store/tar-1.35/share/locale/id/LC_MESSAGES/tar.mo
+installing it.gmo as /home/samson/Projects/clojv3/./store/tar-1.35/share/locale/it/LC_MESSAGES/tar.mo
+installing ja.gmo as /home/samson/Projects/clojv3/./store/tar-1.35/share/locale/ja/LC_MESSAGES/tar.mo
+installing ka.gmo as /home/samson/Projects/clojv3/./store/tar-1.35/share/locale/ka/LC_MESSAGES/tar.mo
+installing ko.gmo as /home/samson/Projects/clojv3/./store/tar-1.35/share/locale/ko/LC_MESSAGES/tar.mo
+installing ky.gmo as /home/samson/Projects/clojv3/./store/tar-1.35/share/locale/ky/LC_MESSAGES/tar.mo
+installing ms.gmo as /home/samson/Projects/clojv3/./store/tar-1.35/share/locale/ms/LC_MESSAGES/tar.mo
+installing nb.gmo as /home/samson/Projects/clojv3/./store/tar-1.35/share/locale/nb/LC_MESSAGES/tar.mo
+installing nl.gmo as /home/samson/Projects/clojv3/./store/tar-1.35/share/locale/nl/LC_MESSAGES/tar.mo
+installing pl.gmo as /home/samson/Projects/clojv3/./store/tar-1.35/share/locale/pl/LC_MESSAGES/tar.mo
+installing pt.gmo as /home/samson/Projects/clojv3/./store/tar-1.35/share/locale/pt/LC_MESSAGES/tar.mo
+installing pt_BR.gmo as /home/samson/Projects/clojv3/./store/tar-1.35/share/locale/pt_BR/LC_MESSAGES/tar.mo
+installing ro.gmo as /home/samson/Projects/clojv3/./store/tar-1.35/share/locale/ro/LC_MESSAGES/tar.mo
+installing ru.gmo as /home/samson/Projects/clojv3/./store/tar-1.35/share/locale/ru/LC_MESSAGES/tar.mo
+installing sk.gmo as /home/samson/Projects/clojv3/./store/tar-1.35/share/locale/sk/LC_MESSAGES/tar.mo
+installing sl.gmo as /home/samson/Projects/clojv3/./store/tar-1.35/share/locale/sl/LC_MESSAGES/tar.mo
+installing sr.gmo as /home/samson/Projects/clojv3/./store/tar-1.35/share/locale/sr/LC_MESSAGES/tar.mo
+installing sv.gmo as /home/samson/Projects/clojv3/./store/tar-1.35/share/locale/sv/LC_MESSAGES/tar.mo
+installing tr.gmo as /home/samson/Projects/clojv3/./store/tar-1.35/share/locale/tr/LC_MESSAGES/tar.mo
+installing uk.gmo as /home/samson/Projects/clojv3/./store/tar-1.35/share/locale/uk/LC_MESSAGES/tar.mo
+installing vi.gmo as /home/samson/Projects/clojv3/./store/tar-1.35/share/locale/vi/LC_MESSAGES/tar.mo
+installing zh_CN.gmo as /home/samson/Projects/clojv3/./store/tar-1.35/share/locale/zh_CN/LC_MESSAGES/tar.mo
+installing zh_TW.gmo as /home/samson/Projects/clojv3/./store/tar-1.35/share/locale/zh_TW/LC_MESSAGES/tar.mo
+if test "tar" = "gettext-tools"; then \
+  /nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/mkdir -p /home/samson/Projects/clojv3/./store/tar-1.35/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/install -c -m 644 ./$file \
+		    /home/samson/Projects/clojv3/./store/tar-1.35/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /home/samson/Projects/clojv3/./store/tar-1.35/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35/po'
+Making install in tests
+make[1]: Entering directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35/tests'
+make[2]: Entering directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35/tests'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35/tests'
+make[1]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35/tests'
+make[1]: Entering directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35'
+make[2]: Entering directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35'
+make[1]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/tar-1.35/tar-1.35'

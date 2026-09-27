@@ -1,0 +1,169 @@
+make[1]: Entering directory '/home/samson/Projects/clojv3/store/tmp/sh-5.3/bash-5.3/builtins'
+make[1]: 'pipesize.h' is up to date.
+make[1]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/sh-5.3/bash-5.3/builtins'
+
+	  ***********************************************************
+	  *                                                         *
+	  * GNU bash, version 5.3.0(1)-release (x86_64-pc-linux-musl)
+	  *                                                         *
+	  ***********************************************************
+
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/bin
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/man/man1
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/info
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/doc/bash
+( cd ./po/ ; make  DESTDIR= installdirs )
+make[1]: Entering directory '/home/samson/Projects/clojv3/store/tmp/sh-5.3/bash-5.3/po'
+/bin/sh ../support/mkinstalldirs /home/samson/Projects/clojv3/./store/sh-5.3/share
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/en@quot/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/en@boldquot/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/af/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/bg/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/ca/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/cs/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/da/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/de/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/el/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/eo/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/es/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/et/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/fi/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/fr/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/ga/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/gl/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/hr/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/hu/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/id/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/it/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/ja/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/ka/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/ko/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/lt/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/nb/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/nl/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/pl/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/pt/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/pt_BR/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/ro/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/ru/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/sk/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/sl/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/sq/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/sr/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/sv/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/tr/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/uk/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/vi/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/zh_CN/LC_MESSAGES
+mkdir -p -- /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/zh_TW/LC_MESSAGES
+if test "bash" = "gettext-tools"; then \
+  /bin/sh ../support/mkinstalldirs /home/samson/Projects/clojv3/./store/sh-5.3/share/gettext/po; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/sh-5.3/bash-5.3/po'
+/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/install -c -m 0755 bash /home/samson/Projects/clojv3/./store/sh-5.3/bin/bash
+/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/install -c -m 0555 bashbug /home/samson/Projects/clojv3/./store/sh-5.3/bin/bashbug
+/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/install -c -m 644 ./CHANGES ./COMPAT ./NEWS ./POSIX ./RBASH ./README /home/samson/Projects/clojv3/./store/sh-5.3/share/doc/bash
+( cd ./doc ; make  \
+	man1dir=/home/samson/Projects/clojv3/./store/sh-5.3/share/man/man1 man1ext=.1 \
+	man3dir=/home/samson/Projects/clojv3/./store/sh-5.3/share/man/man3 man3ext=.3 \
+	infodir=/home/samson/Projects/clojv3/./store/sh-5.3/share/info htmldir=/home/samson/Projects/clojv3/./store/sh-5.3/share/doc/bash DESTDIR= install )
+make[1]: Entering directory '/home/samson/Projects/clojv3/store/tmp/sh-5.3/bash-5.3/doc'
+/bin/sh ../support/mkinstalldirs /home/samson/Projects/clojv3/./store/sh-5.3/share/man/man1
+/bin/sh ../support/mkinstalldirs /home/samson/Projects/clojv3/./store/sh-5.3/share/info
+/bin/sh ../support/mkinstalldirs /home/samson/Projects/clojv3/./store/sh-5.3/share/doc/bash
+if test -n "/home/samson/Projects/clojv3/./store/sh-5.3/share/doc/bash" ; then \
+	/bin/sh ../support/mkinstalldirs /home/samson/Projects/clojv3/./store/sh-5.3/share/doc/bash ; \
+fi
+/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/install -c -m 644 ./bash.1 /home/samson/Projects/clojv3/./store/sh-5.3/share/man/man1/bash.1
+/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/install -c -m 644 ./bashbug.1 /home/samson/Projects/clojv3/./store/sh-5.3/share/man/man1/bashbug.1
+/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/install -c -m 644 ./FAQ ./INTRO /home/samson/Projects/clojv3/./store/sh-5.3/share/doc/bash
+if test -f bash.info; then d=.; else d=.; fi; \
+  /nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/install -c -m 644 $d/bash.info /home/samson/Projects/clojv3/./store/sh-5.3/share/info/bash.info
+if /bin/sh -c 'install-info --version' >/dev/null 2>&1; then \
+	install-info --dir-file=/home/samson/Projects/clojv3/./store/sh-5.3/share/info/dir /home/samson/Projects/clojv3/./store/sh-5.3/share/info/bash.info; \
+else true; fi
+if test -n "/home/samson/Projects/clojv3/./store/sh-5.3/share/doc/bash" ; then \
+	/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/install -c -m 644 ./bash.html /home/samson/Projects/clojv3/./store/sh-5.3/share/doc/bash ; \
+	/nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/install -c -m 644 ./bashref.html /home/samson/Projects/clojv3/./store/sh-5.3/share/doc/bash ; \
+fi
+make[1]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/sh-5.3/bash-5.3/doc'
+( cd ./builtins ; make  DESTDIR= install )
+make[1]: Entering directory '/home/samson/Projects/clojv3/store/tmp/sh-5.3/bash-5.3/builtins'
+make[1]: Nothing to be done for 'install'.
+make[1]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/sh-5.3/bash-5.3/builtins'
+( cd ./po/ ; make  DESTDIR= install )
+make[1]: Entering directory '/home/samson/Projects/clojv3/store/tmp/sh-5.3/bash-5.3/po'
+/bin/sh ../support/mkinstalldirs /home/samson/Projects/clojv3/./store/sh-5.3/share
+installing en@quot.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/en@quot/LC_MESSAGES/bash.mo
+installing en@boldquot.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/en@boldquot/LC_MESSAGES/bash.mo
+installing af.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/af/LC_MESSAGES/bash.mo
+installing bg.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/bg/LC_MESSAGES/bash.mo
+installing ca.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/ca/LC_MESSAGES/bash.mo
+installing cs.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/cs/LC_MESSAGES/bash.mo
+installing da.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/da/LC_MESSAGES/bash.mo
+installing de.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/de/LC_MESSAGES/bash.mo
+installing el.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/el/LC_MESSAGES/bash.mo
+installing eo.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/eo/LC_MESSAGES/bash.mo
+installing es.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/es/LC_MESSAGES/bash.mo
+installing et.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/et/LC_MESSAGES/bash.mo
+installing fi.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/fi/LC_MESSAGES/bash.mo
+installing fr.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/fr/LC_MESSAGES/bash.mo
+installing ga.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/ga/LC_MESSAGES/bash.mo
+installing gl.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/gl/LC_MESSAGES/bash.mo
+installing hr.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/hr/LC_MESSAGES/bash.mo
+installing hu.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/hu/LC_MESSAGES/bash.mo
+installing id.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/id/LC_MESSAGES/bash.mo
+installing it.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/it/LC_MESSAGES/bash.mo
+installing ja.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/ja/LC_MESSAGES/bash.mo
+installing ka.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/ka/LC_MESSAGES/bash.mo
+installing ko.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/ko/LC_MESSAGES/bash.mo
+installing lt.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/lt/LC_MESSAGES/bash.mo
+installing nb.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/nb/LC_MESSAGES/bash.mo
+installing nl.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/nl/LC_MESSAGES/bash.mo
+installing pl.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/pl/LC_MESSAGES/bash.mo
+installing pt.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/pt/LC_MESSAGES/bash.mo
+installing pt_BR.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/pt_BR/LC_MESSAGES/bash.mo
+installing ro.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/ro/LC_MESSAGES/bash.mo
+installing ru.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/ru/LC_MESSAGES/bash.mo
+installing sk.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/sk/LC_MESSAGES/bash.mo
+installing sl.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/sl/LC_MESSAGES/bash.mo
+installing sq.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/sq/LC_MESSAGES/bash.mo
+installing sr.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/sr/LC_MESSAGES/bash.mo
+installing sv.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/sv/LC_MESSAGES/bash.mo
+installing tr.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/tr/LC_MESSAGES/bash.mo
+installing uk.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/uk/LC_MESSAGES/bash.mo
+installing vi.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/vi/LC_MESSAGES/bash.mo
+installing zh_CN.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/zh_CN/LC_MESSAGES/bash.mo
+installing zh_TW.gmo as /home/samson/Projects/clojv3/./store/sh-5.3/share/locale/zh_TW/LC_MESSAGES/bash.mo
+if test "bash" = "gettext-tools"; then \
+  /bin/sh ../support/mkinstalldirs /home/samson/Projects/clojv3/./store/sh-5.3/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/install -c -m 644 ./$file \
+		    /home/samson/Projects/clojv3/./store/sh-5.3/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /home/samson/Projects/clojv3/./store/sh-5.3/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/sh-5.3/bash-5.3/po'
+( cd /home/samson/Projects/clojv3/store/tmp/sh-5.3/bash-5.3/examples/loadables && make  DESTDIR= install )
+make[1]: Entering directory '/home/samson/Projects/clojv3/store/tmp/sh-5.3/bash-5.3/examples/loadables'
+x86_64-unknown-linux-musl-gcc -fPIC -DHAVE_CONFIG_H -DSHELL  -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/home/samson/Projects/clojv3/store/tmp/sh-5.3/bash-5.3 -I/home/samson/Projects/clojv3/store/tmp/sh-5.3/bash-5.3/lib -I/home/samson/Projects/clojv3/store/tmp/sh-5.3/bash-5.3/builtins  -c -o print.o print.c
+x86_64-unknown-linux-musl-gcc -shared -Wl,-soname,print -B/home/samson/Projects/clojv3/./store/musl-1.2.6/lib -L/home/samson/Projects/clojv3/./store/musl-1.2.6/lib -Wl,-rpath,/home/samson/Projects/clojv3/./store/musl-1.2.6/lib -Wl,-dynamic-linker,/home/samson/Projects/clojv3/./store/musl-1.2.6/lib/libc.so -L./lib/termcap  -o print print.o 
+x86_64-unknown-linux-musl-gcc -fPIC -DHAVE_CONFIG_H -DSHELL  -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/home/samson/Projects/clojv3/store/tmp/sh-5.3/bash-5.3 -I/home/samson/Projects/clojv3/store/tmp/sh-5.3/bash-5.3/lib -I/home/samson/Projects/clojv3/store/tmp/sh-5.3/bash-5.3/builtins  -c -o truefalse.o truefalse.c
+x86_64-unknown-linux-musl-gcc -shared -Wl,-soname,truefalse -B/home/samson/Projects/clojv3/./store/musl-1.2.6/lib -L/home/samson/Projects/clojv3/./store/musl-1.2.6/lib -Wl,-rpath,/home/samson/Projects/clojv3/./store/musl-1.2.6/lib -Wl,-dynamic-linker,/home/samson/Projects/clojv3/./store/musl-1.2.6/lib/libc.so -L./lib/termcap  -o truefalse truefalse.o 
+x86_64-unknown-linux-musl-gcc -fPIC -DHAVE_CONFIG_H -DSHELL  -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/home/samson/Projects/clojv3/store/tmp/sh-5.3/bash-5.3 -I/home/samson/Projects/clojv3/store/tmp/sh-5.3/bash-5.3/lib -I/home/samson/Projects/clojv3/store/tmp/sh-5.3/bash-5.3/builtins  -c -o sleep.o sleep.c
+x86_64-unknown-linux-musl-gcc -shared -Wl,-soname,sleep -B/home/samson/Projects/clojv3/./store/musl-1.2.6/lib -L/home/samson/Projects/clojv3/./store/musl-1.2.6/lib -Wl,-rpath,/home/samson/Projects/clojv3/./store/musl-1.2.6/lib -Wl,-dynamic-linker,/home/samson/Projects/clojv3/./store/musl-1.2.6/lib/libc.so -L./lib/termcap  -o sleep sleep.o 
+x86_64-unknown-linux-musl-gcc -fPIC -DHAVE_CONFIG_H -DSHELL  -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../.. -I../../lib -I../../builtins -I. -I../../include -I/home/samson/Projects/clojv3/store/tmp/sh-5.3/bash-5.3 -I/home/samson/Projects/clojv3/store/tmp/sh-5.3/bash-5.3/lib -I/home/samson/Projects/clojv3/store/tmp/sh-5.3/bash-5.3/builtins  -c -o finfo.o finfo.c
+finfo.c: In function ‘finfo_main’:
+finfo.c:110:23: error: implicit declaration of function ‘sh_getopt’; did you mean ‘getopt’? [-Wimplicit-function-declaration]
+  110 |         while ((opt = sh_getopt(argc, argv, OPTIONS)) != EOF) {
+      |                       ^~~~~~~~~
+      |                       getopt
+make[1]: *** [Makefile:101: finfo.o] Error 1
+make[1]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/sh-5.3/bash-5.3/examples/loadables'
+make: [Makefile:923: install] Error 2 (ignored)

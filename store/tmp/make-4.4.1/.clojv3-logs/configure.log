@@ -1,0 +1,208 @@
+checking for a BSD-compatible install... /nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/install -c
+checking whether build environment is sane... yes
+checking for a race-free mkdir -p... /nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports the include directive... yes (GNU style)
+checking for gcc... x86_64-unknown-linux-musl-gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether x86_64-unknown-linux-musl-gcc accepts -g... yes
+checking for x86_64-unknown-linux-musl-gcc option to enable C11 features... none needed
+checking whether x86_64-unknown-linux-musl-gcc understands -c and -o together... yes
+checking whether the compiler is clang... no
+checking for compiler option needed when checking for declarations... none
+checking dependency style of x86_64-unknown-linux-musl-gcc... gcc3
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for wchar.h... yes
+checking for minix/config.h... no
+checking for sys/param.h... yes
+checking for stdbool.h... yes
+checking for vfork.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether _XOPEN_SOURCE should be defined... no
+checking for gcc... (cached) x86_64-unknown-linux-musl-gcc
+checking whether the compiler supports GNU C... (cached) yes
+checking whether x86_64-unknown-linux-musl-gcc accepts -g... (cached) yes
+checking for x86_64-unknown-linux-musl-gcc option to enable C11 features... (cached) none needed
+checking whether x86_64-unknown-linux-musl-gcc understands -c and -o together... (cached) yes
+checking whether the compiler is clang... (cached) no
+checking for compiler option needed when checking for declarations... (cached) none
+checking dependency style of x86_64-unknown-linux-musl-gcc... (cached) gcc3
+checking whether the compiler supports GNU C++... yes
+checking whether g++ accepts -g... yes
+checking for g++ option to enable C++11 features... none needed
+checking dependency style of g++... gcc3
+checking build system type... x86_64-pc-linux-musl
+checking host system type... x86_64-pc-linux-musl
+checking how to run the C preprocessor... x86_64-unknown-linux-musl-gcc -E
+checking for grep that handles long lines and -e... /nix/store/xmvbzzxm5snla5a2cyfhm7hjy9bifx7n-gnugrep-3.12/bin/grep
+checking for egrep... /nix/store/xmvbzzxm5snla5a2cyfhm7hjy9bifx7n-gnugrep-3.12/bin/grep -E
+checking for Minix Amsterdam compiler... no
+checking for ar... ar
+checking for x86_64-unknown-linux-musl-gcc option to enable large file support... none needed
+checking for size_t... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for eaccess... yes
+checking for x86_64-unknown-linux-musl-gcc options needed to detect all undeclared functions... none needed
+checking host CPU and C ABI... x86_64
+checking for C compiler option to allow warnings... -Wno-error
+checking for alloca as a compiler built-in... yes
+checking for getloadavg... yes
+checking for sys/loadavg.h... no
+checking whether getloadavg is declared... yes
+checking if system libc has working GNU glob... no
+checking whether system uses MSDOS-style paths... no
+checking for bool, true, false... yes
+checking for ranlib... ranlib
+checking how to run the C preprocessor... x86_64-unknown-linux-musl-gcc -E
+checking for ar... ar
+checking for perl... perl
+checking whether byte ordering is bigendian... no
+checking for a sed that does not truncate output... /nix/store/qf2wzyq4irhgyhnq3s2hz0ldjq3w8a3x-gnused-4.10/bin/sed
+checking whether NLS is requested... yes
+checking for msgfmt... no
+checking for gmsgfmt... :
+checking for xgettext... no
+checking for msgmerge... no
+checking for ld used by x86_64-unknown-linux-musl-gcc... ld
+checking if the linker (ld) is GNU ld... yes
+checking for shared library run path origin... done
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for GNU gettext in libc... no
+checking for iconv... yes
+checking for working iconv... yes
+checking for GNU gettext in libintl... no
+checking whether to use NLS... no
+checking for library containing strerror... none required
+checking for library containing getpwnam... none required
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking whether stat file-mode macros are broken... no
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for strings.h... (cached) yes
+checking for locale.h... yes
+checking for unistd.h... (cached) yes
+checking for limits.h... yes
+checking for memory.h... yes
+checking for sys/param.h... (cached) yes
+checking for sys/resource.h... yes
+checking for sys/timeb.h... yes
+checking for sys/time.h... yes
+checking for sys/select.h... yes
+checking for sys/file.h... yes
+checking for fcntl.h... yes
+checking for spawn.h... yes
+checking for an ANSI C-conforming const... yes
+checking for uid_t in sys/types.h... yes
+checking for pid_t... yes
+checking for off_t... yes
+checking for size_t... (cached) yes
+checking for ssize_t... yes
+checking for unsigned long long int... yes
+checking for long long int... yes
+checking for intmax_t... yes
+checking for uintmax_t... yes
+checking for sig_atomic_t... yes
+checking for nanoseconds field of struct stat... st_mtim.tv_nsec
+checking whether to use high resolution file timestamps... yes
+checking for library containing clock_gettime... none required
+checking for standard gettimeofday... yes
+checking for strtoll... yes
+checking for strdup... yes
+checking for strndup... yes
+checking for stpcpy... yes
+checking for memrchr... yes
+checking for mempcpy... yes
+checking for umask... yes
+checking for mkstemp... yes
+checking for mktemp... yes
+checking for fdopen... yes
+checking for dup... yes
+checking for dup2... yes
+checking for getcwd... yes
+checking for realpath... yes
+checking for sigsetmask... no
+checking for sigaction... yes
+checking for getgroups... yes
+checking for seteuid... yes
+checking for setegid... yes
+checking for setlinebuf... yes
+checking for setreuid... yes
+checking for setregid... yes
+checking for mkfifo... yes
+checking for getrlimit... yes
+checking for setrlimit... yes
+checking for setvbuf... yes
+checking for pipe... yes
+checking for strerror... yes
+checking for strsignal... yes
+checking for lstat... yes
+checking for readlink... yes
+checking for atexit... yes
+checking for isatty... yes
+checking for ttyname... yes
+checking for pselect... yes
+checking for posix_spawn... yes
+checking for posix_spawnattr_setsigmask... yes
+checking whether bsd_signal is declared... yes
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking for strcasecmp... yes
+checking for strncasecmp... yes
+checking for strcmpi... no
+checking for strncmpi... no
+checking for stricmp... no
+checking for strnicmp... no
+checking for working strcoll... yes
+checking whether closedir returns void... no
+checking for struct dirent.d_type... yes
+checking for pkg-config... no
+checking for GNU Guile... no
+checking whether sys_siglist is declared... no
+checking whether _sys_siglist is declared... no
+checking whether __sys_siglist is declared... no
+checking for sys/wait.h... yes
+checking for waitpid... yes
+checking for wait3... yes
+checking for union wait... no
+checking for SA_RESTART... yes
+checking whether dlopen is declared... yes
+checking whether dlsym is declared... yes
+checking whether dlerror is declared... yes
+checking for library containing dlopen... none required
+checking if the linker accepts -Wl,--export-dynamic... yes
+checking for posix_spawn that fails synchronously... yes
+checking for location of SCCS get command... get
+checking if malloc debugging is wanted... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating build.cfg
+config.status: creating tests/config-flags.pm
+config.status: creating Makefile
+config.status: creating lib/Makefile
+config.status: creating doc/Makefile
+config.status: creating po/Makefile.in
+config.status: creating src/config.h
+config.status: executing depfiles commands
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile

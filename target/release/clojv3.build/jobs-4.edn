@@ -1,0 +1,1 @@
+#("./target/release/clojv3.build/app-1.ss" "./target/release/clojv3.build/app-1.ss.so" "./target/release/clojv3.build/app-1.ss.so.vfasl" "release" default)

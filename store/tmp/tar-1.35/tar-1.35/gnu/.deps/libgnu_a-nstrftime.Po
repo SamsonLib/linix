@@ -1,0 +1,53 @@
+libgnu_a-nstrftime.o: nstrftime.c \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h \
+ libc-config.h ../config.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/errno.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/errno.h \
+ cdefs.h strftime.h time.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/time.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h \
+ stddef.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h \
+ time-internal.h ctype.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/ctype.h limits.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/limits.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/limits.h \
+ /nix/store/yzx98qlav3kgw6a9pkjpz13p1v280vyk-x86_64-unknown-linux-musl-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-musl/15.3.0/include/stdckdint.h \
+ stdlib.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdlib.h \
+ alloca.h string.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/string.h \
+ strings.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/strings.h \
+ attribute.h intprops.h intprops-internal.h
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h:
+libc-config.h:
+../config.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/errno.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/errno.h:
+cdefs.h:
+strftime.h:
+time.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/time.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h:
+stddef.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h:
+time-internal.h:
+ctype.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/ctype.h:
+limits.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/limits.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/limits.h:
+/nix/store/yzx98qlav3kgw6a9pkjpz13p1v280vyk-x86_64-unknown-linux-musl-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-musl/15.3.0/include/stdckdint.h:
+stdlib.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdlib.h:
+alloca.h:
+string.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/string.h:
+strings.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/strings.h:
+attribute.h:
+intprops.h:
+intprops-internal.h:

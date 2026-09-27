@@ -1,0 +1,29 @@
+libgnu_a-bitrotate.o: bitrotate.c \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h \
+ ../config.h bitrotate.h limits.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/limits.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/limits.h \
+ stdint.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdint.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/stdint.h \
+ sys/types.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/types.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/select.h
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h:
+../config.h:
+bitrotate.h:
+limits.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/limits.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/limits.h:
+stdint.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdint.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/stdint.h:
+sys/types.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/types.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/select.h:

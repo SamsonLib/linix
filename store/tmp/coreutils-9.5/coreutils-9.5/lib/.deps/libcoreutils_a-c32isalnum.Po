@@ -1,0 +1,47 @@
+lib/libcoreutils_a-c32isalnum.o: lib/c32isalnum.c \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h \
+ lib/config.h lib/uchar.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/uchar.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h \
+ lib/stdint.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdint.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/stdint.h \
+ lib/limits.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/limits.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/limits.h \
+ lib/wchar.h lib/stddef.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/wchar.h \
+ lib/string.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/string.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/strings.h \
+ lib/wctype.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/wctype.h \
+ lib/c32is-impl.h lib/unictype.h lib/unitypes.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdbool.h
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h:
+lib/config.h:
+lib/uchar.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/uchar.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h:
+lib/stdint.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdint.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/stdint.h:
+lib/limits.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/limits.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/limits.h:
+lib/wchar.h:
+lib/stddef.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/wchar.h:
+lib/string.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/string.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/strings.h:
+lib/wctype.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/wctype.h:
+lib/c32is-impl.h:
+lib/unictype.h:
+lib/unitypes.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdbool.h:

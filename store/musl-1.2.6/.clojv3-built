@@ -1,0 +1,4 @@
+unpack
+configure
+build
+install

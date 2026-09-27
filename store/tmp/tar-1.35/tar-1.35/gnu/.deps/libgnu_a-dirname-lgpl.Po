@@ -1,0 +1,29 @@
+libgnu_a-dirname-lgpl.o: dirname-lgpl.c \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h \
+ ../config.h dirname.h stdlib.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdlib.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h \
+ alloca.h stddef.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h \
+ filename.h string.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/string.h \
+ strings.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/strings.h \
+ basename-lgpl.h
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h:
+../config.h:
+dirname.h:
+stdlib.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdlib.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h:
+alloca.h:
+stddef.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h:
+filename.h:
+string.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/string.h:
+strings.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/strings.h:
+basename-lgpl.h:

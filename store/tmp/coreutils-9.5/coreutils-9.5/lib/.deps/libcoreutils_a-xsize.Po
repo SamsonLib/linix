@@ -1,0 +1,27 @@
+lib/libcoreutils_a-xsize.o: lib/xsize.c \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h \
+ lib/config.h lib/xsize.h lib/stddef.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h \
+ lib/limits.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/limits.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/limits.h \
+ lib/stdint.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdint.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/stdint.h \
+ lib/attribute.h
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h:
+lib/config.h:
+lib/xsize.h:
+lib/stddef.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h:
+lib/limits.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/limits.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/limits.h:
+lib/stdint.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdint.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/stdint.h:
+lib/attribute.h:

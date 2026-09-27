@@ -1,0 +1,29 @@
+timespec-add.o: timespec-add.c \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h \
+ ../lib/config.h ../lib/timespec.h ../lib/time.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/time.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h \
+ ../lib/stddef.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h \
+ ../lib/arg-nonnull.h \
+ /nix/store/yzx98qlav3kgw6a9pkjpz13p1v280vyk-x86_64-unknown-linux-musl-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-musl/15.3.0/include/stdckdint.h \
+ ../lib/intprops.h ../lib/intprops-internal.h ../lib/limits.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/limits.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/limits.h
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h:
+../lib/config.h:
+../lib/timespec.h:
+../lib/time.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/time.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h:
+../lib/stddef.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h:
+../lib/arg-nonnull.h:
+/nix/store/yzx98qlav3kgw6a9pkjpz13p1v280vyk-x86_64-unknown-linux-musl-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-musl/15.3.0/include/stdckdint.h:
+../lib/intprops.h:
+../lib/intprops-internal.h:
+../lib/limits.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/limits.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/limits.h:

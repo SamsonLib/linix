@@ -1,0 +1,61 @@
+libgnu_a-xvasprintf.o: xvasprintf.c \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h \
+ ../config.h xvasprintf.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdarg.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h \
+ stdio.h /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdio.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h \
+ stddef.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h \
+ sys/types.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/types.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/select.h \
+ stdlib.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdlib.h \
+ alloca.h /home/samson/Projects/clojv3/./store/musl-1.2.6/include/errno.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/errno.h \
+ limits.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/limits.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/limits.h \
+ string.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/string.h \
+ strings.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/strings.h \
+ xalloc.h idx.h stdint.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdint.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/stdint.h \
+ xsize.h attribute.h
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h:
+../config.h:
+xvasprintf.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdarg.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h:
+stdio.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdio.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h:
+stddef.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h:
+sys/types.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/types.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/select.h:
+stdlib.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdlib.h:
+alloca.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/errno.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/errno.h:
+limits.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/limits.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/limits.h:
+string.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/string.h:
+strings.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/strings.h:
+xalloc.h:
+idx.h:
+stdint.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdint.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/stdint.h:
+xsize.h:
+attribute.h:

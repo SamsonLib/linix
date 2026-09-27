@@ -1,0 +1,99 @@
+libgnu_a-regex.o: regex.c \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h \
+ libc-config.h ../config.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/errno.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/errno.h \
+ cdefs.h limits.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/limits.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/limits.h \
+ regex.h sys/types.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/types.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/select.h \
+ regex_internal.h ctype.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/ctype.h stdio.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdio.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdarg.h \
+ stddef.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h \
+ stdlib.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdlib.h \
+ alloca.h string.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/string.h \
+ strings.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/strings.h \
+ langinfo.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/langinfo.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/nl_types.h \
+ locale.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/locale.h \
+ setlocale_null.h arg-nonnull.h wchar.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/wchar.h wctype.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/wctype.h \
+ /nix/store/yzx98qlav3kgw6a9pkjpz13p1v280vyk-x86_64-unknown-linux-musl-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-musl/15.3.0/include/stdckdint.h \
+ stdint.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdint.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/stdint.h \
+ dynarray.h malloc/dynarray.h intprops.h intprops-internal.h verify.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/libintl.h \
+ attribute.h regex_internal.c regcomp.c regexec.c \
+ malloc/dynarray-skeleton.c
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h:
+libc-config.h:
+../config.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/errno.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/errno.h:
+cdefs.h:
+limits.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/limits.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/limits.h:
+regex.h:
+sys/types.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/types.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/select.h:
+regex_internal.h:
+ctype.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/ctype.h:
+stdio.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdio.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdarg.h:
+stddef.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h:
+stdlib.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdlib.h:
+alloca.h:
+string.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/string.h:
+strings.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/strings.h:
+langinfo.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/langinfo.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/nl_types.h:
+locale.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/locale.h:
+setlocale_null.h:
+arg-nonnull.h:
+wchar.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/wchar.h:
+wctype.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/wctype.h:
+/nix/store/yzx98qlav3kgw6a9pkjpz13p1v280vyk-x86_64-unknown-linux-musl-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-musl/15.3.0/include/stdckdint.h:
+stdint.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdint.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/stdint.h:
+dynarray.h:
+malloc/dynarray.h:
+intprops.h:
+intprops-internal.h:
+verify.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/libintl.h:
+attribute.h:
+regex_internal.c:
+regcomp.c:
+regexec.c:
+malloc/dynarray-skeleton.c:

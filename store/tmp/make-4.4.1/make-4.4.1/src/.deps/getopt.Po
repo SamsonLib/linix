@@ -1,0 +1,26 @@
+src/getopt.o: src/getopt.c \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h \
+ src/config.h src/../src/mkcustom.h lib/alloca.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdio.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdlib.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/unistd.h \
+ src/gettext.h src/getopt.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/string.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/strings.h
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h:
+src/config.h:
+src/../src/mkcustom.h:
+lib/alloca.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdio.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdlib.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/unistd.h:
+src/gettext.h:
+src/getopt.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/string.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/strings.h:

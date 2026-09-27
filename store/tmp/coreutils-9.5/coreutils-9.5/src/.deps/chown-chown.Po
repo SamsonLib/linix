@@ -1,0 +1,5 @@
+src/chown-chown.o: src/chown-chown.c \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h \
+ src/chown.h
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h:
+src/chown.h:

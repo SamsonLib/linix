@@ -1,0 +1,40 @@
+lib/libcoreutils_a-sys_socket.o: lib/sys_socket.c \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h \
+ lib/config.h lib/sys/socket.h lib/sys/types.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/types.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h \
+ lib/sys/select.h lib/sys/time.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/time.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/select.h \
+ lib/signal.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/signal.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/signal.h \
+ lib/stddef.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/socket.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/socket.h \
+ lib/sys/uio.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/uio.h
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h:
+lib/config.h:
+lib/sys/socket.h:
+lib/sys/types.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/types.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:
+lib/sys/select.h:
+lib/sys/time.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/time.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/select.h:
+lib/signal.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/signal.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/signal.h:
+lib/stddef.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/socket.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/socket.h:
+lib/sys/uio.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/uio.h:

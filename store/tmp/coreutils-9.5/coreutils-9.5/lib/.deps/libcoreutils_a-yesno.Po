@@ -1,0 +1,53 @@
+lib/libcoreutils_a-yesno.o: lib/yesno.c \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h \
+ lib/config.h lib/yesno.h lib/stdlib.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdlib.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h \
+ lib/alloca.h lib/stddef.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h \
+ lib/unistd.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/unistd.h \
+ lib/sys/types.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/types.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h \
+ lib/sys/select.h lib/sys/time.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/time.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/select.h \
+ lib/signal.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/signal.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/signal.h \
+ lib/getopt-cdefs.h \
+ /nix/store/yzx98qlav3kgw6a9pkjpz13p1v280vyk-x86_64-unknown-linux-musl-gcc-15.3.0/x86_64-unknown-linux-musl/sys-include/sys/cdefs.h \
+ lib/getopt-pfx-core.h lib/getopt-core.h lib/stdio.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdio.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdarg.h
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h:
+lib/config.h:
+lib/yesno.h:
+lib/stdlib.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdlib.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h:
+lib/alloca.h:
+lib/stddef.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h:
+lib/unistd.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/unistd.h:
+lib/sys/types.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/types.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:
+lib/sys/select.h:
+lib/sys/time.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/time.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/select.h:
+lib/signal.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/signal.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/signal.h:
+lib/getopt-cdefs.h:
+/nix/store/yzx98qlav3kgw6a9pkjpz13p1v280vyk-x86_64-unknown-linux-musl-gcc-15.3.0/x86_64-unknown-linux-musl/sys-include/sys/cdefs.h:
+lib/getopt-pfx-core.h:
+lib/getopt-core.h:
+lib/stdio.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdio.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdarg.h:

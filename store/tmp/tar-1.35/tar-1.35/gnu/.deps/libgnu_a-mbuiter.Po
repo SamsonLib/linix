@@ -1,0 +1,54 @@
+libgnu_a-mbuiter.o: mbuiter.c \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h \
+ ../config.h mbuiter.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/assert.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h \
+ stddef.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h \
+ stdlib.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdlib.h \
+ alloca.h string.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/string.h \
+ strings.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/strings.h \
+ uchar.h /home/samson/Projects/clojv3/./store/musl-1.2.6/include/uchar.h \
+ stdint.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdint.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/stdint.h \
+ limits.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/limits.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/limits.h \
+ wchar.h /home/samson/Projects/clojv3/./store/musl-1.2.6/include/wchar.h \
+ wctype.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/wctype.h \
+ mbchar.h strnlen1.h
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h:
+../config.h:
+mbuiter.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/assert.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h:
+stddef.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h:
+stdlib.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdlib.h:
+alloca.h:
+string.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/string.h:
+strings.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/strings.h:
+uchar.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/uchar.h:
+stdint.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdint.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/stdint.h:
+limits.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/limits.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/limits.h:
+wchar.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/wchar.h:
+wctype.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/wctype.h:
+mbchar.h:
+strnlen1.h:

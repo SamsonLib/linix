@@ -1,0 +1,4 @@
+install -d /home/samson/Projects/clojv3/./store/tree-2.3.2/bin
+install -d /home/samson/Projects/clojv3/./store/tree-2.3.2/man/man1
+install tree /home/samson/Projects/clojv3/./store/tree-2.3.2/bin/tree; \
+install -m 644 doc/tree.1 /home/samson/Projects/clojv3/./store/tree-2.3.2/man/man1/tree.1

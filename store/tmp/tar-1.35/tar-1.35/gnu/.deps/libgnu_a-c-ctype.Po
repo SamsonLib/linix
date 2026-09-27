@@ -1,0 +1,6 @@
+libgnu_a-c-ctype.o: c-ctype.c \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h \
+ ../config.h c-ctype.h
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h:
+../config.h:
+c-ctype.h:

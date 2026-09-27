@@ -1,0 +1,81 @@
+libgnu_a-chdir-long.o: chdir-long.c \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h \
+ ../config.h chdir-long.h unistd.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/unistd.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h \
+ stddef.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h \
+ stdlib.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdlib.h \
+ alloca.h sys/types.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/types.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/select.h \
+ getopt-cdefs.h \
+ /nix/store/yzx98qlav3kgw6a9pkjpz13p1v280vyk-x86_64-unknown-linux-musl-gcc-15.3.0/x86_64-unknown-linux-musl/sys-include/sys/cdefs.h \
+ getopt-pfx-core.h getopt-core.h limits.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/limits.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/limits.h \
+ pathmax.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/errno.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/errno.h \
+ fcntl.h sys/stat.h time.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/time.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/stat.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/stat.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/fcntl.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/fcntl.h \
+ string.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/string.h \
+ strings.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/strings.h \
+ stdio.h /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdio.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdarg.h \
+ assure.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/assert.h \
+ verify.h
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h:
+../config.h:
+chdir-long.h:
+unistd.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/unistd.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h:
+stddef.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h:
+stdlib.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdlib.h:
+alloca.h:
+sys/types.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/types.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/select.h:
+getopt-cdefs.h:
+/nix/store/yzx98qlav3kgw6a9pkjpz13p1v280vyk-x86_64-unknown-linux-musl-gcc-15.3.0/x86_64-unknown-linux-musl/sys-include/sys/cdefs.h:
+getopt-pfx-core.h:
+getopt-core.h:
+limits.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/limits.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/limits.h:
+pathmax.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/errno.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/errno.h:
+fcntl.h:
+sys/stat.h:
+time.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/time.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/stat.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/stat.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/fcntl.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/fcntl.h:
+string.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/string.h:
+strings.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/strings.h:
+stdio.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdio.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdarg.h:
+assure.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/assert.h:
+verify.h:

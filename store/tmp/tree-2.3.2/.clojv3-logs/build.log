@@ -1,0 +1,254 @@
+x86_64-unknown-linux-musl-gcc -ggdb -std=c11 -Wpedantic -Wall -Wextra -Wstrict-prototypes -Wshadow -Wconversion -Wdiscarded-qualifiers -I/home/samson/Projects/clojv3/./store/make-4.4.1/include -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include -DLARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o color.o color.c
+x86_64-unknown-linux-musl-gcc -ggdb -std=c11 -Wpedantic -Wall -Wextra -Wstrict-prototypes -Wshadow -Wconversion -Wdiscarded-qualifiers -I/home/samson/Projects/clojv3/./store/make-4.4.1/include -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include -DLARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o file.o file.c
+x86_64-unknown-linux-musl-gcc -ggdb -std=c11 -Wpedantic -Wall -Wextra -Wstrict-prototypes -Wshadow -Wconversion -Wdiscarded-qualifiers -I/home/samson/Projects/clojv3/./store/make-4.4.1/include -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include -DLARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o filter.o filter.c
+x86_64-unknown-linux-musl-gcc -ggdb -std=c11 -Wpedantic -Wall -Wextra -Wstrict-prototypes -Wshadow -Wconversion -Wdiscarded-qualifiers -I/home/samson/Projects/clojv3/./store/make-4.4.1/include -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include -DLARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o hash.o hash.c
+x86_64-unknown-linux-musl-gcc -ggdb -std=c11 -Wpedantic -Wall -Wextra -Wstrict-prototypes -Wshadow -Wconversion -Wdiscarded-qualifiers -I/home/samson/Projects/clojv3/./store/make-4.4.1/include -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include -DLARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o html.o html.c
+x86_64-unknown-linux-musl-gcc -ggdb -std=c11 -Wpedantic -Wall -Wextra -Wstrict-prototypes -Wshadow -Wconversion -Wdiscarded-qualifiers -I/home/samson/Projects/clojv3/./store/make-4.4.1/include -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include -DLARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o info.o info.c
+x86_64-unknown-linux-musl-gcc -ggdb -std=c11 -Wpedantic -Wall -Wextra -Wstrict-prototypes -Wshadow -Wconversion -Wdiscarded-qualifiers -I/home/samson/Projects/clojv3/./store/make-4.4.1/include -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include -DLARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o json.o json.c
+x86_64-unknown-linux-musl-gcc -ggdb -std=c11 -Wpedantic -Wall -Wextra -Wstrict-prototypes -Wshadow -Wconversion -Wdiscarded-qualifiers -I/home/samson/Projects/clojv3/./store/make-4.4.1/include -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include -DLARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o list.o list.c
+x86_64-unknown-linux-musl-gcc -ggdb -std=c11 -Wpedantic -Wall -Wextra -Wstrict-prototypes -Wshadow -Wconversion -Wdiscarded-qualifiers -I/home/samson/Projects/clojv3/./store/make-4.4.1/include -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include -DLARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o tree.o tree.c
+x86_64-unknown-linux-musl-gcc -ggdb -std=c11 -Wpedantic -Wall -Wextra -Wstrict-prototypes -Wshadow -Wconversion -Wdiscarded-qualifiers -I/home/samson/Projects/clojv3/./store/make-4.4.1/include -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include -DLARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o unix.o unix.c
+x86_64-unknown-linux-musl-gcc -ggdb -std=c11 -Wpedantic -Wall -Wextra -Wstrict-prototypes -Wshadow -Wconversion -Wdiscarded-qualifiers -I/home/samson/Projects/clojv3/./store/make-4.4.1/include -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include -DLARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o util.o util.c
+x86_64-unknown-linux-musl-gcc -ggdb -std=c11 -Wpedantic -Wall -Wextra -Wstrict-prototypes -Wshadow -Wconversion -Wdiscarded-qualifiers -I/home/samson/Projects/clojv3/./store/make-4.4.1/include -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include -DLARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o xml.o xml.c
+In file included from /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/types.h:70,
+                 from tree.h:28,
+                 from color.c:18:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h: In function ‘__bswap32’:
+In file included from /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/types.h:70,
+                 from tree.h:28,
+                 from list.c:18:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h: In function ‘__bswap32’:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:26:32: warning: suggest parentheses around arithmetic in operand of ‘|’ [-Wparentheses]
+   26 |         return __x>>24 | __x>>8&0xff00 | __x<<8&0xff0000 | __x<<24;
+      |                          ~~~~~~^~~~~~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:26:48: warning: suggest parentheses around arithmetic in operand of ‘|’ [-Wparentheses]
+   26 |         return __x>>24 | __x>>8&0xff00 | __x<<8&0xff0000 | __x<<24;
+      |                                          ~~~~~~^~~~~~~~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h: In function ‘__bswap64’:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:31:26: warning: conversion from ‘uint64_t’ {aka ‘long unsigned int’} to ‘uint32_t’ {aka ‘unsigned int’} may change value [-Wconversion]
+   31 |         return __bswap32(__x)+0ULL<<32 | __bswap32(__x>>32);
+      |                          ^~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:31:30: warning: suggest parentheses around ‘+’ inside ‘<<’ [-Wparentheses]
+   31 |         return __bswap32(__x)+0ULL<<32 | __bswap32(__x>>32);
+      |                ~~~~~~~~~~~~~~^~~~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:31:55: warning: conversion from ‘uint64_t’ {aka ‘long unsigned int’} to ‘uint32_t’ {aka ‘unsigned int’} may change value [-Wconversion]
+   31 |         return __bswap32(__x)+0ULL<<32 | __bswap32(__x>>32);
+      |                                                    ~~~^~~~
+In file included from /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/types.h:70,
+                 from tree.h:28,
+                 from hash.c:18:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h: In function ‘__bswap32’:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:26:32: warning: suggest parentheses around arithmetic in operand of ‘|’ [-Wparentheses]
+   26 |         return __x>>24 | __x>>8&0xff00 | __x<<8&0xff0000 | __x<<24;
+      |                          ~~~~~~^~~~~~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:26:48: warning: suggest parentheses around arithmetic in operand of ‘|’ [-Wparentheses]
+   26 |         return __x>>24 | __x>>8&0xff00 | __x<<8&0xff0000 | __x<<24;
+      |                                          ~~~~~~^~~~~~~~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h: In function ‘__bswap64’:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:31:26: warning: conversion from ‘uint64_t’ {aka ‘long unsigned int’} to ‘uint32_t’ {aka ‘unsigned int’} may change value [-Wconversion]
+   31 |         return __bswap32(__x)+0ULL<<32 | __bswap32(__x>>32);
+      |                          ^~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:31:30: warning: suggest parentheses around ‘+’ inside ‘<<’ [-Wparentheses]
+   31 |         return __bswap32(__x)+0ULL<<32 | __bswap32(__x>>32);
+      |                ~~~~~~~~~~~~~~^~~~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:31:55: warning: conversion from ‘uint64_t’ {aka ‘long unsigned int’} to ‘uint32_t’ {aka ‘unsigned int’} may change value [-Wconversion]
+   31 |         return __bswap32(__x)+0ULL<<32 | __bswap32(__x>>32);
+      |                                                    ~~~^~~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:26:32: warning: suggest parentheses around arithmetic in operand of ‘|’ [-Wparentheses]
+   26 |         return __x>>24 | __x>>8&0xff00 | __x<<8&0xff0000 | __x<<24;
+      |                          ~~~~~~^~~~~~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:26:48: warning: suggest parentheses around arithmetic in operand of ‘|’ [-Wparentheses]
+   26 |         return __x>>24 | __x>>8&0xff00 | __x<<8&0xff0000 | __x<<24;
+      |                                          ~~~~~~^~~~~~~~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h: In function ‘__bswap64’:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:31:26: warning: conversion from ‘uint64_t’ {aka ‘long unsigned int’} to ‘uint32_t’ {aka ‘unsigned int’} may change value [-Wconversion]
+   31 |         return __bswap32(__x)+0ULL<<32 | __bswap32(__x>>32);
+      |                          ^~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:31:30: warning: suggest parentheses around ‘+’ inside ‘<<’ [-Wparentheses]
+   31 |         return __bswap32(__x)+0ULL<<32 | __bswap32(__x>>32);
+      |                ~~~~~~~~~~~~~~^~~~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:31:55: warning: conversion from ‘uint64_t’ {aka ‘long unsigned int’} to ‘uint32_t’ {aka ‘unsigned int’} may change value [-Wconversion]
+   31 |         return __bswap32(__x)+0ULL<<32 | __bswap32(__x>>32);
+      |                                                    ~~~^~~~
+In file included from /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/types.h:70,
+                 from tree.h:28,
+                 from filter.c:18:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h: In function ‘__bswap32’:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:26:32: warning: suggest parentheses around arithmetic in operand of ‘|’ [-Wparentheses]
+   26 |         return __x>>24 | __x>>8&0xff00 | __x<<8&0xff0000 | __x<<24;
+      |                          ~~~~~~^~~~~~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:26:48: warning: suggest parentheses around arithmetic in operand of ‘|’ [-Wparentheses]
+   26 |         return __x>>24 | __x>>8&0xff00 | __x<<8&0xff0000 | __x<<24;
+      |                                          ~~~~~~^~~~~~~~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h: In function ‘__bswap64’:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:31:26: warning: conversion from ‘uint64_t’ {aka ‘long unsigned int’} to ‘uint32_t’ {aka ‘unsigned int’} may change value [-Wconversion]
+   31 |         return __bswap32(__x)+0ULL<<32 | __bswap32(__x>>32);
+      |                          ^~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:31:30: warning: suggest parentheses around ‘+’ inside ‘<<’ [-Wparentheses]
+   31 |         return __bswap32(__x)+0ULL<<32 | __bswap32(__x>>32);
+      |                ~~~~~~~~~~~~~~^~~~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:31:55: warning: conversion from ‘uint64_t’ {aka ‘long unsigned int’} to ‘uint32_t’ {aka ‘unsigned int’} may change value [-Wconversion]
+   31 |         return __bswap32(__x)+0ULL<<32 | __bswap32(__x>>32);
+      |                                                    ~~~^~~~
+In file included from /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/types.h:70,
+                 from tree.h:28,
+                 from tree.c:19:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h: In function ‘__bswap32’:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:26:32: warning: suggest parentheses around arithmetic in operand of ‘|’ [-Wparentheses]
+   26 |         return __x>>24 | __x>>8&0xff00 | __x<<8&0xff0000 | __x<<24;
+      |                          ~~~~~~^~~~~~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:26:48: warning: suggest parentheses around arithmetic in operand of ‘|’ [-Wparentheses]
+   26 |         return __x>>24 | __x>>8&0xff00 | __x<<8&0xff0000 | __x<<24;
+      |                                          ~~~~~~^~~~~~~~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h: In function ‘__bswap64’:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:31:26: warning: conversion from ‘uint64_t’ {aka ‘long unsigned int’} to ‘uint32_t’ {aka ‘unsigned int’} may change value [-Wconversion]
+   31 |         return __bswap32(__x)+0ULL<<32 | __bswap32(__x>>32);
+      |                          ^~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:31:30: warning: suggest parentheses around ‘+’ inside ‘<<’ [-Wparentheses]
+   31 |         return __bswap32(__x)+0ULL<<32 | __bswap32(__x>>32);
+      |                ~~~~~~~~~~~~~~^~~~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:31:55: warning: conversion from ‘uint64_t’ {aka ‘long unsigned int’} to ‘uint32_t’ {aka ‘unsigned int’} may change value [-Wconversion]
+   31 |         return __bswap32(__x)+0ULL<<32 | __bswap32(__x>>32);
+      |                                                    ~~~^~~~
+In file included from /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/types.h:70,
+                 from tree.h:28,
+                 from info.c:18:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h: In function ‘__bswap32’:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:26:32: warning: suggest parentheses around arithmetic in operand of ‘|’ [-Wparentheses]
+   26 |         return __x>>24 | __x>>8&0xff00 | __x<<8&0xff0000 | __x<<24;
+      |                          ~~~~~~^~~~~~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:26:48: warning: suggest parentheses around arithmetic in operand of ‘|’ [-Wparentheses]
+   26 |         return __x>>24 | __x>>8&0xff00 | __x<<8&0xff0000 | __x<<24;
+      |                                          ~~~~~~^~~~~~~~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h: In function ‘__bswap64’:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:31:26: warning: conversion from ‘uint64_t’ {aka ‘long unsigned int’} to ‘uint32_t’ {aka ‘unsigned int’} may change value [-Wconversion]
+   31 |         return __bswap32(__x)+0ULL<<32 | __bswap32(__x>>32);
+      |                          ^~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:31:30: warning: suggest parentheses around ‘+’ inside ‘<<’ [-Wparentheses]
+   31 |         return __bswap32(__x)+0ULL<<32 | __bswap32(__x>>32);
+      |                ~~~~~~~~~~~~~~^~~~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:31:55: warning: conversion from ‘uint64_t’ {aka ‘long unsigned int’} to ‘uint32_t’ {aka ‘unsigned int’} may change value [-Wconversion]
+   31 |         return __bswap32(__x)+0ULL<<32 | __bswap32(__x>>32);
+      |                                                    ~~~^~~~
+In file included from /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/types.h:70,
+                 from tree.h:28,
+                 from json.c:18:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h: In function ‘__bswap32’:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:26:32: warning: suggest parentheses around arithmetic in operand of ‘|’ [-Wparentheses]
+   26 |         return __x>>24 | __x>>8&0xff00 | __x<<8&0xff0000 | __x<<24;
+      |                          ~~~~~~^~~~~~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:26:48: warning: suggest parentheses around arithmetic in operand of ‘|’ [-Wparentheses]
+   26 |         return __x>>24 | __x>>8&0xff00 | __x<<8&0xff0000 | __x<<24;
+      |                                          ~~~~~~^~~~~~~~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h: In function ‘__bswap64’:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:31:26: warning: conversion from ‘uint64_t’ {aka ‘long unsigned int’} to ‘uint32_t’ {aka ‘unsigned int’} may change value [-Wconversion]
+   31 |         return __bswap32(__x)+0ULL<<32 | __bswap32(__x>>32);
+      |                          ^~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:31:30: warning: suggest parentheses around ‘+’ inside ‘<<’ [-Wparentheses]
+   31 |         return __bswap32(__x)+0ULL<<32 | __bswap32(__x>>32);
+      |                ~~~~~~~~~~~~~~^~~~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:31:55: warning: conversion from ‘uint64_t’ {aka ‘long unsigned int’} to ‘uint32_t’ {aka ‘unsigned int’} may change value [-Wconversion]
+   31 |         return __bswap32(__x)+0ULL<<32 | __bswap32(__x>>32);
+      |                                                    ~~~^~~~
+In file included from /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/types.h:70,
+                 from tree.h:28,
+                 from unix.c:18:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h: In function ‘__bswap32’:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:26:32: warning: suggest parentheses around arithmetic in operand of ‘|’ [-Wparentheses]
+   26 |         return __x>>24 | __x>>8&0xff00 | __x<<8&0xff0000 | __x<<24;
+      |                          ~~~~~~^~~~~~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:26:48: warning: suggest parentheses around arithmetic in operand of ‘|’ [-Wparentheses]
+   26 |         return __x>>24 | __x>>8&0xff00 | __x<<8&0xff0000 | __x<<24;
+      |                                          ~~~~~~^~~~~~~~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h: In function ‘__bswap64’:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:31:26: warning: conversion from ‘uint64_t’ {aka ‘long unsigned int’} to ‘uint32_t’ {aka ‘unsigned int’} may change value [-Wconversion]
+   31 |         return __bswap32(__x)+0ULL<<32 | __bswap32(__x>>32);
+      |                          ^~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:31:30: warning: suggest parentheses around ‘+’ inside ‘<<’ [-Wparentheses]
+   31 |         return __bswap32(__x)+0ULL<<32 | __bswap32(__x>>32);
+      |                ~~~~~~~~~~~~~~^~~~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:31:55: warning: conversion from ‘uint64_t’ {aka ‘long unsigned int’} to ‘uint32_t’ {aka ‘unsigned int’} may change value [-Wconversion]
+   31 |         return __bswap32(__x)+0ULL<<32 | __bswap32(__x>>32);
+      |                                                    ~~~^~~~
+In file included from /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/types.h:70,
+                 from tree.h:28,
+                 from html.c:18:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h: In function ‘__bswap32’:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:26:32: warning: suggest parentheses around arithmetic in operand of ‘|’ [-Wparentheses]
+   26 |         return __x>>24 | __x>>8&0xff00 | __x<<8&0xff0000 | __x<<24;
+      |                          ~~~~~~^~~~~~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:26:48: warning: suggest parentheses around arithmetic in operand of ‘|’ [-Wparentheses]
+   26 |         return __x>>24 | __x>>8&0xff00 | __x<<8&0xff0000 | __x<<24;
+      |                                          ~~~~~~^~~~~~~~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h: In function ‘__bswap64’:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:31:26: warning: conversion from ‘uint64_t’ {aka ‘long unsigned int’} to ‘uint32_t’ {aka ‘unsigned int’} may change value [-Wconversion]
+   31 |         return __bswap32(__x)+0ULL<<32 | __bswap32(__x>>32);
+      |                          ^~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:31:30: warning: suggest parentheses around ‘+’ inside ‘<<’ [-Wparentheses]
+   31 |         return __bswap32(__x)+0ULL<<32 | __bswap32(__x>>32);
+      |                ~~~~~~~~~~~~~~^~~~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:31:55: warning: conversion from ‘uint64_t’ {aka ‘long unsigned int’} to ‘uint32_t’ {aka ‘unsigned int’} may change value [-Wconversion]
+   31 |         return __bswap32(__x)+0ULL<<32 | __bswap32(__x>>32);
+      |                                                    ~~~^~~~
+In file included from /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/types.h:70,
+                 from tree.h:28,
+                 from file.c:18:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h: In function ‘__bswap32’:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:26:32: warning: suggest parentheses around arithmetic in operand of ‘|’ [-Wparentheses]
+   26 |         return __x>>24 | __x>>8&0xff00 | __x<<8&0xff0000 | __x<<24;
+      |                          ~~~~~~^~~~~~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:26:48: warning: suggest parentheses around arithmetic in operand of ‘|’ [-Wparentheses]
+   26 |         return __x>>24 | __x>>8&0xff00 | __x<<8&0xff0000 | __x<<24;
+      |                                          ~~~~~~^~~~~~~~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h: In function ‘__bswap64’:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:31:26: warning: conversion from ‘uint64_t’ {aka ‘long unsigned int’} to ‘uint32_t’ {aka ‘unsigned int’} may change value [-Wconversion]
+   31 |         return __bswap32(__x)+0ULL<<32 | __bswap32(__x>>32);
+      |                          ^~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:31:30: warning: suggest parentheses around ‘+’ inside ‘<<’ [-Wparentheses]
+   31 |         return __bswap32(__x)+0ULL<<32 | __bswap32(__x>>32);
+      |                ~~~~~~~~~~~~~~^~~~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:31:55: warning: conversion from ‘uint64_t’ {aka ‘long unsigned int’} to ‘uint32_t’ {aka ‘unsigned int’} may change value [-Wconversion]
+   31 |         return __bswap32(__x)+0ULL<<32 | __bswap32(__x>>32);
+      |                                                    ~~~^~~~
+In file included from /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/types.h:70,
+                 from tree.h:28,
+                 from util.c:18:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h: In function ‘__bswap32’:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:26:32: warning: suggest parentheses around arithmetic in operand of ‘|’ [-Wparentheses]
+   26 |         return __x>>24 | __x>>8&0xff00 | __x<<8&0xff0000 | __x<<24;
+      |                          ~~~~~~^~~~~~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:26:48: warning: suggest parentheses around arithmetic in operand of ‘|’ [-Wparentheses]
+   26 |         return __x>>24 | __x>>8&0xff00 | __x<<8&0xff0000 | __x<<24;
+      |                                          ~~~~~~^~~~~~~~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h: In function ‘__bswap64’:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:31:26: warning: conversion from ‘uint64_t’ {aka ‘long unsigned int’} to ‘uint32_t’ {aka ‘unsigned int’} may change value [-Wconversion]
+   31 |         return __bswap32(__x)+0ULL<<32 | __bswap32(__x>>32);
+      |                          ^~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:31:30: warning: suggest parentheses around ‘+’ inside ‘<<’ [-Wparentheses]
+   31 |         return __bswap32(__x)+0ULL<<32 | __bswap32(__x>>32);
+      |                ~~~~~~~~~~~~~~^~~~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:31:55: warning: conversion from ‘uint64_t’ {aka ‘long unsigned int’} to ‘uint32_t’ {aka ‘unsigned int’} may change value [-Wconversion]
+   31 |         return __bswap32(__x)+0ULL<<32 | __bswap32(__x>>32);
+      |                                                    ~~~^~~~
+In file included from /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/types.h:70,
+                 from tree.h:28,
+                 from xml.c:18:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h: In function ‘__bswap32’:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:26:32: warning: suggest parentheses around arithmetic in operand of ‘|’ [-Wparentheses]
+   26 |         return __x>>24 | __x>>8&0xff00 | __x<<8&0xff0000 | __x<<24;
+      |                          ~~~~~~^~~~~~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:26:48: warning: suggest parentheses around arithmetic in operand of ‘|’ [-Wparentheses]
+   26 |         return __x>>24 | __x>>8&0xff00 | __x<<8&0xff0000 | __x<<24;
+      |                                          ~~~~~~^~~~~~~~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h: In function ‘__bswap64’:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:31:26: warning: conversion from ‘uint64_t’ {aka ‘long unsigned int’} to ‘uint32_t’ {aka ‘unsigned int’} may change value [-Wconversion]
+   31 |         return __bswap32(__x)+0ULL<<32 | __bswap32(__x>>32);
+      |                          ^~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:31:30: warning: suggest parentheses around ‘+’ inside ‘<<’ [-Wparentheses]
+   31 |         return __bswap32(__x)+0ULL<<32 | __bswap32(__x>>32);
+      |                ~~~~~~~~~~~~~~^~~~~
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:31:55: warning: conversion from ‘uint64_t’ {aka ‘long unsigned int’} to ‘uint32_t’ {aka ‘unsigned int’} may change value [-Wconversion]
+   31 |         return __bswap32(__x)+0ULL<<32 | __bswap32(__x>>32);
+      |                                                    ~~~^~~~
+x86_64-unknown-linux-musl-gcc -ggdb -std=c11 -Wpedantic -Wall -Wextra -Wstrict-prototypes -Wshadow -Wconversion -Wdiscarded-qualifiers -I/home/samson/Projects/clojv3/./store/make-4.4.1/include -I/home/samson/Projects/clojv3/./store/musl-1.2.6/include -DLARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o strverscmp.o strverscmp.c
+x86_64-unknown-linux-musl-gcc -B/home/samson/Projects/clojv3/./store/musl-1.2.6/lib -L/home/samson/Projects/clojv3/./store/musl-1.2.6/lib -Wl,-rpath,/home/samson/Projects/clojv3/./store/musl-1.2.6/lib -Wl,-dynamic-linker,/home/samson/Projects/clojv3/./store/musl-1.2.6/lib/libc.so -o tree color.o file.o filter.o hash.o html.o info.o json.o list.o tree.o unix.o util.o xml.o strverscmp.o

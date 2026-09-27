@@ -1,0 +1,6 @@
+lib/libcoreutils_a-priv-set.o: lib/priv-set.c \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h \
+ lib/config.h lib/priv-set.h
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h:
+lib/config.h:
+lib/priv-set.h:

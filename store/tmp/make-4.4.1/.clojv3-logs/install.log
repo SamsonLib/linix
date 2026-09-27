@@ -1,0 +1,46 @@
+Making install in lib
+make[1]: Entering directory '/home/samson/Projects/clojv3/store/tmp/make-4.4.1/make-4.4.1/lib'
+make  install-recursive
+make[2]: Entering directory '/home/samson/Projects/clojv3/store/tmp/make-4.4.1/make-4.4.1/lib'
+make[3]: Entering directory '/home/samson/Projects/clojv3/store/tmp/make-4.4.1/make-4.4.1/lib'
+make[4]: Entering directory '/home/samson/Projects/clojv3/store/tmp/make-4.4.1/make-4.4.1/lib'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/make-4.4.1/make-4.4.1/lib'
+make[3]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/make-4.4.1/make-4.4.1/lib'
+make[2]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/make-4.4.1/make-4.4.1/lib'
+make[1]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/make-4.4.1/make-4.4.1/lib'
+Making install in po
+make[1]: Entering directory '/home/samson/Projects/clojv3/store/tmp/make-4.4.1/make-4.4.1/po'
+if test "make" = "gettext-tools"; then \
+  /nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/mkdir -p /home/samson/Projects/clojv3/./store/make-4.4.1/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/install -c -m 644 ./$file \
+		    /home/samson/Projects/clojv3/./store/make-4.4.1/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /home/samson/Projects/clojv3/./store/make-4.4.1/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/make-4.4.1/make-4.4.1/po'
+Making install in doc
+make[1]: Entering directory '/home/samson/Projects/clojv3/store/tmp/make-4.4.1/make-4.4.1/doc'
+make[2]: Entering directory '/home/samson/Projects/clojv3/store/tmp/make-4.4.1/make-4.4.1/doc'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/mkdir -p '/home/samson/Projects/clojv3/./store/make-4.4.1/share/info'
+ /nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/install -c -m 644 ./make.info ./make.info-1 ./make.info-2 ./make.info-3 '/home/samson/Projects/clojv3/./store/make-4.4.1/share/info'
+ install-info --info-dir='/home/samson/Projects/clojv3/./store/make-4.4.1/share/info' '/home/samson/Projects/clojv3/./store/make-4.4.1/share/info/make.info'
+make[2]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/make-4.4.1/make-4.4.1/doc'
+make[1]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/make-4.4.1/make-4.4.1/doc'
+make[1]: Entering directory '/home/samson/Projects/clojv3/store/tmp/make-4.4.1/make-4.4.1'
+make[2]: Entering directory '/home/samson/Projects/clojv3/store/tmp/make-4.4.1/make-4.4.1'
+ /nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/mkdir -p '/home/samson/Projects/clojv3/./store/make-4.4.1/bin'
+  /nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/install -c make '/home/samson/Projects/clojv3/./store/make-4.4.1/bin'
+ /nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/mkdir -p '/home/samson/Projects/clojv3/./store/make-4.4.1/include'
+ /nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/install -c -m 644 src/gnumake.h '/home/samson/Projects/clojv3/./store/make-4.4.1/include'
+ /nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/mkdir -p '/home/samson/Projects/clojv3/./store/make-4.4.1/share/man/man1'
+ /nix/store/xjl7p8dvyk2j53kqf7f43kdj4ypbxz7g-coreutils-9.11/bin/install -c -m 644 doc/make.1 '/home/samson/Projects/clojv3/./store/make-4.4.1/share/man/man1'
+make[2]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/make-4.4.1/make-4.4.1'
+make[1]: Leaving directory '/home/samson/Projects/clojv3/store/tmp/make-4.4.1/make-4.4.1'

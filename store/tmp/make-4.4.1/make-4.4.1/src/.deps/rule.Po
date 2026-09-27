@@ -1,0 +1,85 @@
+src/rule.o: src/rule.c \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h \
+ src/makeint.h src/config.h src/../src/mkcustom.h lib/alloca.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h \
+ src/gnumake.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/types.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/select.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/stat.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/stat.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/signal.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/signal.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdio.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/ctype.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/timeb.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/time.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/time.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/errno.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/errno.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/unistd.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/limits.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/limits.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/param.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/resource.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/resource.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdlib.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/string.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/strings.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/inttypes.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdint.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/stdint.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/locale.h \
+ src/gettext.h lib/glob.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/assert.h \
+ src/filedef.h src/hash.h src/dep.h src/job.h src/output.h src/commands.h \
+ src/variable.h src/rule.h
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h:
+src/makeint.h:
+src/config.h:
+src/../src/mkcustom.h:
+lib/alloca.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h:
+src/gnumake.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/types.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/select.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/stat.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/stat.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/signal.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/signal.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdio.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/ctype.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/timeb.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/time.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/time.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/errno.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/errno.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/unistd.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/limits.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/limits.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/param.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/resource.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/resource.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdlib.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/string.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/strings.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/inttypes.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdint.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/stdint.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/locale.h:
+src/gettext.h:
+lib/glob.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/assert.h:
+src/filedef.h:
+src/hash.h:
+src/dep.h:
+src/job.h:
+src/output.h:
+src/commands.h:
+src/variable.h:
+src/rule.h:

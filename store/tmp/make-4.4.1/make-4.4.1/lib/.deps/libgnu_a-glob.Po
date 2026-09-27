@@ -1,0 +1,46 @@
+libgnu_a-glob.o: glob.c \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h \
+ ../src/config.h ../src/../src/mkcustom.h alloca.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/errno.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/errno.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/types.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/select.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/stat.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/stat.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/assert.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/unistd.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/pwd.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/dirent.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/dirent.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdlib.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/string.h \
+ /home/samson/Projects/clojv3/./store/musl-1.2.6/include/strings.h \
+ fnmatch.h glob.h
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h:
+../src/config.h:
+../src/../src/mkcustom.h:
+alloca.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stddef.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/alltypes.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/errno.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/features.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/errno.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/types.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/endian.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/select.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/sys/stat.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/stat.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/assert.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/unistd.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/pwd.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/dirent.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/bits/dirent.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdlib.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/string.h:
+/home/samson/Projects/clojv3/./store/musl-1.2.6/include/strings.h:
+fnmatch.h:
+glob.h:
