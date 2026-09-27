@@ -8,16 +8,6 @@
            [java.net HttpURLConnection URL]
            [java.security MessageDigest]))
 
-;; The package tree the DSL in test.clj builds. A package is a map of
-;; {:type :package :name :version :source :dependencies :host-tools :build
-;; :meta}; :build is a build-system map of {:name :environment :phases}, and
-;; each phase is {:type :shell :command} or {:type :exec :command}.
-;;
-;; Building one means: fetch :source into the store's downloads directory,
-;; hand it to the phases in order with $src and $out set, and let them install
-;; into <store>/<name>-<version>. Dependencies are built first and their
-;; output directories go on the phases' PATH, so a package is compiled and
-;; linked against what it declared.
 
 (def default-store-dir
   "Where built packages land, relative to the working directory."
@@ -543,7 +533,7 @@
   ([store-dir]
    (-> (builder/empty-builder)
        builder/with-standard-library
-       (builder/with-module-ext "clj")
+       (builder/with-module-ext "lp")
        (assoc :store-dir store-dir)
        ;; (build tree) has to really build tree, not assemble a context.
        (builder/with-builtin 'build (fn [pkg] (build! store-dir pkg)))

@@ -7,7 +7,7 @@
   {:builtins   {}
    :variables  {}
    :load-paths ["."]
-   :module-ext "clj"
+   :module-ext "lp"
    :ready?     false})
 
 (defn with-builtin

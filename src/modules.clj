@@ -7,11 +7,11 @@
 (defn- module-filename
   "Relative filename for a module symbol, treating the symbol as a path:
    dots (and an optional namespace) become directory separators, e.g.
-   'foo.bar -> \"foo/bar.clj\", 'ns/foo.bar -> \"ns/foo/bar.clj\"."
+   'foo.bar -> \"foo/bar.lp\", 'ns/foo.bar -> \"ns/foo/bar.lp\"."
   [ctx module-sym]
   (let [parts (cond-> (str/split (name module-sym) #"\.")
                 (namespace module-sym) (->> (cons (namespace module-sym))))]
-    (str (str/join "/" parts) "." (:module-ext ctx "clj"))))
+    (str (str/join "/" parts) "." (:module-ext ctx "lp"))))
 
 (defn- find-module-file
   "First existing java.io.File for `filename` across `dirs`, or nil."
