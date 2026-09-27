@@ -1,5 +1,0 @@
-src/version.o: src/version.c \
- /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h \
- lib/config.h
-/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h:
-lib/config.h:

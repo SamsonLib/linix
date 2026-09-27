@@ -1,6 +1,0 @@
-lib/libcoreutils_a-sockets.o: lib/sockets.c \
- /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h \
- lib/config.h lib/sockets.h
-/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h:
-lib/config.h:
-lib/sockets.h:

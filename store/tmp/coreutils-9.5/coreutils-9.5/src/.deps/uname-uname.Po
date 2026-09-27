@@ -1,5 +1,0 @@
-src/uname-uname.o: src/uname-uname.c \
- /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h \
- src/uname.h
-/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h:
-src/uname.h:

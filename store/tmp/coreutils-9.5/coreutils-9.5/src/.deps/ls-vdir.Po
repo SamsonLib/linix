@@ -1,5 +1,0 @@
-src/ls-vdir.o: src/ls-vdir.c \
- /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h \
- src/ls.h
-/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h:
-src/ls.h:

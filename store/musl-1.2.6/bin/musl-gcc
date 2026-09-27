@@ -1,2 +1,0 @@
-#!/bin/sh
-exec "${REALGCC:-gcc}" "$@" -specs "/home/samson/Projects/clojv3/./store/musl-1.2.6/lib/musl-gcc.specs"

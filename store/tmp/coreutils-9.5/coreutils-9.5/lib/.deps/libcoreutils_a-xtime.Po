@@ -1,6 +1,0 @@
-lib/libcoreutils_a-xtime.o: lib/xtime.c \
- /home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h \
- lib/config.h lib/xtime.h
-/home/samson/Projects/clojv3/./store/musl-1.2.6/include/stdc-predef.h:
-lib/config.h:
-lib/xtime.h:
